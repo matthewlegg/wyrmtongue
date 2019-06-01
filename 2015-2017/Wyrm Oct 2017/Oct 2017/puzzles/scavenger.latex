@@ -1,0 +1,163 @@
+% I will probably fiddle with the text below at some point. For now, I've left it as-is. The follwing comments aren't mine. --Kermit
+
+% I've played with the wording of Macej's article a little, and particularly removed a few articles and elipsis.
+On your way in, you should have been assigned to one of three teams and given a sticky badge to wear with newfound pride.
+If somehow you slipped through the net,
+or misplaced your badge,
+then go and \emph{politely} berate the receptionists until they give you one.
+
+"Now," you might think, "if only there were some way for me to prove my worth \ldots to win glory and ultimately victory for my team!"
+Fear not!
+Your newly aquired fervour need not go unfulfilled!
+At the front desk you will find a list of dangerous,
+and often impossible,
+missions set by those pen-pushing bigwigs at Picocon Command,
+% We'll make him regret saying that.
+who can edit these articles and make me so sorry for insulting them.
+Complete any of these missions, bring the evidence back to the front desk, and win fabulous prizes \ldots in the form of points for your team.
+Whichever team ends up with the most points will be declared the finest, the greatest, and most importantly the winners!
+
+Now go \emph{for great justice}.
+
+This year's teams are:
+
+\begin{tabular}{ccc}
+	\includegraphics[width=0.2\columnwidth]{pictures/team1} &
+	\includegraphics[width=0.2\columnwidth]{pictures/team2} &
+	\includegraphics[width=0.2\columnwidth]{pictures/team3} \\
+
+	\parbox{0.3\textwidth}{\center\large Team 1} &
+	\parbox{0.3\textwidth}{\center\large Team 2} &
+	\parbox{0.3\textwidth}{\center\large Team 3} \\
+\end{tabular}
+\vspace{5mm}
+
+These items can be submitted to the Front Desk for House Points (after 11am).
+Pictures are not (generally) admissible; objective involving people {\textit
+must only be undertaken with the other person's permission}.
+The front desk reserved the right to keep the submitted items. Each house may
+claim an item on the only once, unless otherwise noted.
+\begin{tabbing}
+	BD \quad \= Benedict's (Front Desk Guy) Discretion\footnotemark \\
+	E \> This item may be claimed multiple times per house (``each'') \\
+	M \> For each house, the highest of their scores will be used
+\end{tabbing}
+\footnotetext{This actually
+	applies to everything; where it is noted, it indicates that you’re
+	unlikely to change my mind with your cunning arguments.}
+
+\begin{multicols}{2}
+	\begin{tabbing}
+
+	\iffalse
+
+1 \hspace{12mm}	\= Little Green Pygmy Solders (E) \\
+10	\> House hat from any House \\ \>other than your own \\
+1	\> Hugs (Per person) \\
+% History / Picocon
+30	\> Picocon \\
+20	\> A non-ICSF fresher at Picocon \\
+Age +5	\> Ex-ICSF Chair (M) \\
+Age +5	\> Ex-ICSF Librarian (M) \\
+Age +5	\> T-shirts from Picocons past (M) \\
+10 	\> Previous Guest of Honour (E) \\
+10	\> Half of one (1) Dave \\
+20	\> The Mabbott set \\
+8	\> A Phylactery \\
+80 	\> Dave Clements' phylactery \\
+100	\> The Picocon Sofa, Calm \\
+50	\> The Picocon Beanbag, Calm \\
+% Benedict's Things
+15	\> Tea, Earl Grey, Hot \\
+25 	\> A good drink (BD, E) \\
+10 	\> A less good drink (BD) \\
+-5	\> Unsatisfactory drink (BD) \\
+5	\> Delicious Blood (BD) \\
+15	\> Spirits from beyond \\
+1000 	\> £100 (E) \\
+7	\> The contents of my pocketses \\
+5	\> Good News (BD, E) \\
+-5	\> Bad News (BD, E) \\
+1	\> A funny joke (BD, E) \\
+-1	\> A bad pun (BD, E) \\
+-1	\> A portmanturse (E) \\
+25	\> A competent barbershop \\ \> quartet (BD) \\
+5	\> Any song sung in the style of \\ \> William Shatner \\
+50	\> A barbershop quartet in the style \\ \> of William Shatner \\
+50	\> This year’s crossword, correctly \\ \> completed \\
+% Theme Things
+20  \> Phoenix \\
+15	\> Phoenix Down \\
+10	\> Zombie (E) \\
+5	\> Ring of Regeneration \\
+8	\> Ring of Jumping +5 \\
+20	\> Defibrillator \\
+30	\> The Philosopher's Stone \\
+5	\> Cyborg components \\
+50	\> Full Cyberisation (working) \\
+15	\> A cat with more than one life \\
+10	\> Horcrux \\
+25	\> Lazarus Machine \\
+10	\> Sarcophagus \\
+5	\> A Frankenstein-ian Monster \\
+% Fun things
+10	\> First Post \\
+-5	\> First Score \\
+5	\> Origami \\
+8	\> A Non-Euclidean Triangle \\
+5	\> Tribble \\
+60	\> Tribble (Functional) \\
+5	\> A Nanosecond \\
+3	\> A good hat \\
+5	\> A correctly fitted top hat \\
+% Random crap
+50	\> Happiness, $\ge$ 0.1M Concentration \\
+n(n-1)	\> n Interlocking Cogs (Functional \\ \> after being poked) (M) \\
+30 	\> A control crystal (with \\ \> demonstration) \\
+40 	\> Three quarters of a planck length \\
+20 	\> A demonstration of Xeno's paradox \\
+14 	\> A clowder of one cat \\
+400	\> The World Turtle \\
+800 \> With orbiting bodies \\
+50	\> A book ICSF lacks (and wants) \\
+1	\> The Light at the end of the tunnel \\
+5	\> A Crowning moment of awesome \\
+5	\> Nostalgia for Infinity \\
+5	\> Team Gigantor \\
+17	\> Proof Humanity’s reach extends \\ \> beyond its imagination \\
+3	\> Famous last words (subject to \\ \> checking) \\
+7	\> A seeing eye Wombat \\
+-20	\> Elephant \\
+-1	\> Anything irrelevent (E) \\
+-5  \> Anything irrelephant (E) \\
+% Random crap
+3	\> Cleopatra in Space \\
+3	\> Galaxy \\
+2	\> A practical application for \\ \> General Relativity \\
+4	\> Transcendent understanding \\
+10	\> A point in the complex plane \\
+30	\> 4 Unitless Sergeis \\
+1000	\> Time machine (points were awarded \\ \> 15th Feb 6pm, ICSF Library, \\ \> password is ``Chewsday'') \\
+25	\> A swordfish \\
+35	\> A fishsword \\
+10	\> A Swan \\
+5	\> What happened on the way to the \\ \> forum \\
+4	\> Nerf Guns \\
+3	\> NERV guns \\
+10	\> Lab Stuff \\
+-50	\> per fatality \\
+10	\> The Staff of Ra \\
+3	\> Positronic Brain \\
+3	\> Observable Brownian Motion \\
+5	\> A fluffy dragon \\
+7	\> A plasma generator \\
+5	\> Ion cannon (demonstrated) \\
+
+	\fi
+
+	\end{tabbing}
+\end{multicols}
+
+{\large Good Luck!}
+
+You're likely to need it...

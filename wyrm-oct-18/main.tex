@@ -1,0 +1,223 @@
+% encoding & geometry
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,bottom=2.5cm,left=2cm,right=2cm,top=2cm]{geometry}
+
+% conditionals
+\usepackage{xifthen}
+
+% hyphenation & date format
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+
+% url for pdf
+\usepackage{hyperref}
+
+% graphics imports
+\usepackage{graphicx}
+\usepackage{caption}
+
+% page style
+\pagestyle{plain}
+
+% dagger footnotes & re-start count every page
+\usepackage{perpage}
+\MakePerPage[2]{footnote}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% individual landscape pages
+\usepackage{lscape}
+
+% lists
+\usepackage{enumitem}
+
+% frames
+\usepackage{framed}
+
+% multiple columns
+\usepackage{multicol}
+\setlength{\columnsep}{3em}
+% paragraph spacing
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{1em}
+% preserve parindent and parskip in minipages
+\makeatletter
+\newcommand{\@minipagerestore}{
+  \setlength{\parskip}{1em}
+  \setlength{\parindent}{1em}
+}
+\makeatother
+
+% default font
+\usepackage{tgschola}
+
+% drop caps
+\usepackage{lettrine}
+
+% icons
+\usepackage{fontawesome}
+
+% table stuff
+\usepackage{multirow}
+
+% conditional column layout
+\usepackage{ifoddpage}
+
+% crossword
+\usepackage[unboxed, small]{cwpuzzle}
+
+% COMMAND & ENVIRONMENT DEFINITIONS %
+
+% secondary font
+\newcommand{\altfont}[1]{\fontfamily{ppl}\selectfont {#1}}
+
+% end mark
+\newcommand{\tombstone}[0]{$\mathbf{\Psi\!\Phi}$}
+
+% title headers
+\newcommand{\pagehead}[1]{
+  \begin{center}
+    \altfont{\Huge \textbf{#1}}
+  \end{center}%
+  \vspace{1em} \hrule \vspace{0.2em}
+}
+
+\newcommand{\pagesubhead}[1]{
+  \vspace{1em}
+  \noindent{\Large \textbf{#1} \par}
+  \noindent%
+}
+
+
+% article template
+\newenvironment{article}[4]{\ignorespaces
+  % arguments:
+  % #1 - body path
+  % #2 - image path
+  % #3 - name
+  % #4 - role
+  % profile image column %
+  \newcommand{\profile}[3]{
+    \begin{minipage}[t]{0.25\textwidth}
+      \setlength{\parindent}{0px} % no indent for image
+      \raisebox{\dimexpr \topskip-\height-0.5em}{
+        \includegraphics[width=\textwidth,keepaspectratio]{##1}
+      }
+      \begin{flushright}
+        \altfont{
+          {\Large \textbf{##2} \par}
+          \vspace{-0.8em} % hand-adjusted vertical spacing
+                 {##3}
+        }
+      \end{flushright}
+    \end{minipage}
+  }
+  % article body text %
+  \newcommand{\text}[1]{
+    \begin{minipage}[t]{0.7\textwidth}
+      \input {##1}\tombstone
+    \end{minipage}
+  }
+  % contents are formatted conditionally such that
+  % the profile column is always near the open edge
+  % of the page.
+  \checkoddpage\ifoddpage
+  \text{#1}\hspace*{\fill}\profile{#2}{#3}{#4}
+  \else
+  \profile{#2}{#3}{#4}\hspace*{\fill}\text{#1}
+  \fi
+}{\ignorespacesafterend}
+
+\begin{document}
+
+% TITLE PAGE %
+\thispagestyle{empty}
+\vspace*{\fill}
+        {
+          \centering
+          \includegraphics[width=\textwidth,keepaspectratio]{img/cover.png}
+        }
+        \vfill \vfill
+        \clearpage
+        %
+        % FROM THE EDITOR
+        \pagehead{Welcome}
+        \begin{article}
+          {txt/editor.tex}
+          {img/profile/j-lo.png}
+          {Jean Lo}
+          {Editor}
+        \end{article}
+        \clearpage
+        %
+        % CAPTAIN'S LOG
+        \pagehead{Captain's Log}
+        \begin{article}
+          {txt/chair.tex}
+          {img/profile/h-wild-alt.png}
+          {Henry Wild}
+          {Chair Entity}
+        \end{article}
+        % footnote out here to preserve numbering
+        \footnotetext{It's like a chair, but comfier\texttrademark}
+        \clearpage
+        %
+        % WELCOME TO THE LIBRARY %
+        \pagehead{Welcome to the Library!}
+        \begin{article}
+          {txt/librarian.tex}
+          {img/profile/m-last.png}
+          {Matthew Last}
+          {Head Librarian}
+        \end{article}
+        \clearpage
+        %
+        % BOOK RECOMMENDATIONS %
+        \pagehead{Book Recommendations}
+        \input{pages/book-recs.tex}
+        \clearpage
+        %
+        % EVENTS %
+        \pagehead{Events Timetable}
+        \begin{article}
+          {txt/cov.tex}
+          {img/profile/c-winzar.png}
+          {Connor Winzar}
+          {Chair of Vice}
+        \end{article}
+        \clearpage
+        %
+        % TIMETABLE %
+        \begin{landscape}
+        %\pagehead{ICSF Autumn Term Events}
+        \input{pages/timetable-landscape.tex}
+        \end{landscape}
+        \clearpage
+        %
+        %PICOCON %
+        \pagehead{Picocon}
+        \begin{article}
+          {txt/sofa.tex}
+          {img/profile/e-pickup.png}
+          {Edward \nolinebreak Pickup}
+          {Picocon Sofa}
+        \end{article}
+        \clearpage
+        %
+        % GETTING INVOLVED %
+        \pagehead{Whispers from the Basement}
+        \input{pages/radio.tex}
+        \vspace{2em}
+        \pagehead{Getting Involved}
+        \input{pages/getting-involved.tex}
+        \clearpage
+        %
+        % CROSSWORD %
+        \pagehead{Crossword}
+        \input{pages/crossword.tex}
+        \clearpage
+        % BACK MATTER %
+        \input{pages/back-matter.tex}
+
+\end{document}

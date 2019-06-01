@@ -1,0 +1,149 @@
+%\vspace*{\fill}
+\renewcommand{\PuzzleNumberFont}{\tt\scriptsize}
+\begin{Puzzle}{15}{15}
+  | [1]H|   I| [2]S|     T|    O|    R|    Y|   *|    *|    *|       *|    *| [3]D|   *|   *|.
+  |    I|   *|    W|     *|    *|    *|    *|[4]T|    *| [5]K|       L|    A|    A|   T|   U|.
+  | [6]G|   R|    A|     B| [7]T|    H|    A|   R|    *|    *|       *|    *|    V|   *|   *|.
+  |    H|   *|    L|     *|    E|    *|    *|   U|    *|    *|[8]    F|    R|    E|   E|   *|.
+  |    G|   *| [9]L|     U|    N|    C|    H|   T|    I|    M|       E|    *|    *|   *|   *|.
+  |    R|   *|    O|     *|    S|    *|    *|   H|    *|    *|       A|    *|    *|   *|   *|.
+  |    O|   *|    W|     *|    I|    *|[10]J|   *|[11]C|    *|       R|    *|[12]S|   *|   *|.
+  |[13]U|   H|    *|     *|    O|    *|    O|   *|    H|    *|       *|[14]F|    I|   N|   D|.
+  |    N|   *|    *|     *|[15]N|    E|    U|   T|    R|    O|   [16]N|    *|    C|   *|   *|.
+  |    D|   *|    *|     *|    *|    *|    R|   *|    O|    *|       O|    *|    I|   *|   *|.
+  |    *|   *|    *| [17]R|    A|    I|    N|   *|[18]M|    O|       R|    A|    L|   S|   *|.
+  |    *|   *|    *|     E|    *|    *|    E|   *|    E|    *|       T|    *|    I|   *|   *|.
+  |    *|   *|    *| [19]D|    U|[20]T|    Y|   *|    *|[21]F|       H|    T|    A|   G|   N|.
+  |    *|   *|    *|     *|    *|    R|    *|   *|    *|    *|       *|    *|    N|   *|   *|.
+  |    *|   *|    *|     *|    *|    Y|    *|   *|    *|    *|       *|    *|    *|   *|   *|.
+\end{Puzzle}
+%
+\newenvironment{cwclues}[1]{
+  \ignorespaces
+  \begin{minipage}[t]{0.44\textwidth}
+    {\small \textbf{#1}}
+    \footnotesize
+    \begin{itemize}[leftmargin=*,topsep=0pt,itemsep=0pt]
+      \newcommand{\cwclue}[6]{%
+        % #1     - number
+        % #2     - answer
+        % #3     - format
+        % #4, #5 - clue
+        % #6     - source
+      \item[\texttt{##1}]{##4}~\rule{2em}{.02em}~{##5}
+        \textit{{##6}}~\texttt{(##3)}
+      }
+}{
+    \end{itemize}
+    %\end{PuzzleClues}
+  \end{minipage}
+  \ignorespacesafterend
+}
+%
+\hspace*{\fill}
+\begin{cwclues}{Down}
+  \cwclue{1}{HIGHGROUND}{4,~6}{
+    It's over, Anakin! I have the }{.
+  }{Star Wars: Episode III \textemdash{} Revenge of the Sith}
+  %
+  \cwclue{2}{SWALLOW}{7}{
+    What is the air-speed velocity of an unladen }{?
+  }{Monty Python and the Holy Grail}
+  %
+  \cwclue{3}{DAVE}{4}{
+    I'm sorry, }{. I'm afraid I can't do that.
+  }{2001: A Space Odyssey}
+  %
+  \cwclue{4}{TRUTH}{5}{
+    The past was erased, the erasure was forgotten, the lie became }{.
+  }{1984}
+  \cwclue{7}{TENSION}{7}{
+  }{, apprehension, and dissension have begun.
+  }{The Demolished Man}
+  %
+  \cwclue{8}{FEAR}{4}{
+  }{ is the mind-killer.
+  }{Dune}
+  %
+  \cwclue{10}{JOURNEY}{7}{
+    Life before death. Strength before weakness. }{ before destination.
+  }{The Way of Kings}
+  %
+  \cwclue{11}{CHROME}{6}{
+    You will ride eternal, shiny and }{!
+  }{Mad Max: Fury Road}
+  %
+  \cwclue{12}{SICILIAN}{8}{
+    Never go against a }{ when death is on the line.
+  }{The Princess Bride}
+  %
+  \cwclue{16}{NORTH}{5}{
+    Bear Island knows no king but the king in the }{.
+  }{Game of Thrones}
+  %
+  \cwclue{17}{RED}{3}{
+    You've got }{ on you.
+  }{Shaun of the Dead}
+  %
+  \cwclue{20}{TRY}{3}{
+    Do ... or do not. There is no }{.
+  }{The Empire Strikes Back}
+\end{cwclues}
+\hspace{1em}
+\begin{cwclues}{Across}
+  \cwclue{1}{HISTORY}{7}{
+  }{. Read it and weep!
+  }{Cat's Cradle}
+  %
+  \cwclue{5}{KLAATU}{6}{
+  }{ barada nikto.
+  }{The Day the Earth Stood Still}
+  %
+  \cwclue{6}{GRABTHAR}{8}{
+    By }{'s hammer, by the suns of Worvan, you shall be avenged.
+  }{Galaxy Quest}
+  %
+  \cwclue{8}{FREE}{4}{
+    Dobby is a }{ elf!
+  }{Harry Potter and the Deathly Hallows}
+  %
+  \cwclue{9}{LUNCHTIME}{9}{
+    Time is an illusion. }{ doubly so.
+  }{The Hitchhiker's Guide to the Galaxy}
+  %
+  \cwclue{13}{UH}{2}{
+    Life, }{, finds a way.
+  }{Jurassic Park}
+  %
+  \cwclue{14}{BIND}{4}{
+    One Ring to rule them all, One Ring to find them; One Ring to bring them all and in the darkness }{ them.
+  }{The Lord of the Rings}
+  %
+  \cwclue{15}{NEUTRON}{7}{
+    Reverse the polarity of the }{ flow!
+  }{Doctor Who}
+  %
+  \cwclue{17}{RAIN}{4}{
+    All those moments will be lost in time, like tears in }{.
+  }{Blade Runner}
+  %
+  \cwclue{18}{MORALS}{6}{
+    Never let your sense of }{ prevent you from doing what is right.
+  }{Foundation}
+  %
+  \cwclue{19}{DUTY}{4}{
+    Death is lighter than a feather. }{, heavier than a mountain.
+  }{The Wheel of Time}
+  %
+  \cwclue{21}{FHTAGN}{6}{
+    Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl }{.
+  }{The Call of Cthulhu}
+  %
+\end{cwclues}
+\hspace*{\fill}
+\vspace{1.5em}
+\begin{center}
+  \textit{
+    Thanks to the library for suggesting these quotations.
+  }
+\end{center}

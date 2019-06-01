@@ -1,0 +1,96 @@
+\thispagestyle{empty}
+
+% COLUMN TEMPLATE %
+\newenvironment{events-month}[3]{\ignorespaces
+% EVENT TEMPLATE %
+\newcommand{\event}[4]{
+% arguments:
+% #1 - date
+% #2 - day
+% #3 - type
+% #4 - name
+\begin{itemize}[leftmargin=4em]
+\item[\texttt{{##2} {##1}}] \ifthenelse{
+\isempty{##3}
+}{
+{##4}
+}{
+\textbf{##3}\newline
+\textit{##4}
+}
+\end{itemize}
+}
+\begin{minipage}[t]{{#1}\linewidth}
+\begin{center}
+\textbf{\large {#2}}
+\end{center}
+\vspace{1em} \hrule \vspace{0.5em}
+{#3}
+\end{minipage}
+}{\ignorespacesafterend}
+
+%\pagehead{ICSF Autumn Term Events Timetable}
+
+\begin{events-month}{0.3}{OCTOBER}{
+\event{04}{THU}{}{Meet and Greet}
+\event{05}{FRI}{Themed Friday}{Blockbuster Night}
+\event{10}{WED}{Cinema Trip}{Venom}
+\event{10}{WED}{}{Literary Lucky Dip}
+\event{12}{FRI}{Themed Friday}{Indiana Jones}
+\event{18}{THU}{}{Bar Night + Quiz}
+\event{19}{FRI}{Themed Friday}{Monty Python}
+\event{20}{SAT}{}{Book Crawl}
+\event{25}{THU}{}{Escape Room}
+\event{26}{FRI}{}{Halloween Party}
+\event{27}{SAT}{}{Modern Horror\newline All-Nighter}
+}
+\end{events-month}
+\hfill% \vrule{} \hfill
+\begin{events-month}{0.3}{NOVEMBER}{
+\event{02}{FRI}{Themed Friday}{Revenge of Blockbuster Night}
+\event{03}{SAT}{}{Danger After 5}
+\event{08}{THU}{}{Bar Night}
+\event{09}{FRI}{Themed Friday}{Steampunk}
+\event{10}{SAT}{}{Boardgame Night}
+\event{16}{FRI}{Themed Friday}{Disney + Karaoke}
+\event{17}{SAT}{Cinema Trip}{Fantastic Beasts}
+\event{22}{THU}{}{Journal 3}
+\event{23}{FRI}{Themed Friday}{Mad Max}
+\event{24}{SAT}{}{John Carpenter Marathon}
+\event{30}{FRI}{Themed Friday}{Bad Films}
+}
+\end{events-month}
+\hfill% \vrule{} \hfill
+\begin{events-month}{0.3}{DECEMBER}{
+\event{07}{FRI}{}{Christmas Party}
+\event{14}{FRI}{Cinema Trip}{Aquaman}
+
+\vspace{4em}
+\begin{framed}
+\begin{center}\underline{\textbf{Initial Lunchtime Showings}}\end{center}
+\small
+{\centering Join us in the next few weeks for: \par}
+\begin{itemize}[leftmargin=2em,itemsep=-0.4em,topsep=0pt,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+\newcommand{\lunchitem}[1]{\item \textit{#1}}
+\lunchitem{Batman: The Animated Series}
+\lunchitem{Buffy the Vampire Slayer}
+\lunchitem{Doctor Who}
+\lunchitem{Futurama}
+\lunchitem{Red Dwarf}
+\lunchitem{Star Trek: The Original Series}
+\lunchitem{Star Wars}
+\end{itemize}
+\vspace{1em}
+\rightline{... and others.\hspace{1.5em}}
+\vspace{1em}
+\end{framed}
+}
+\end{events-month}
+
+\vfill
+\begin{center}
+\textit{Regular lunchtime showings (every weekday!) continue throughout term time. Unofficial events not shown.}
+
+\textit{Be sure to subscribe to our mailing lists to keep yourself up to date.}
+\end{center}
+

@@ -1,0 +1,19 @@
+Mogworld
+
+Yahtzee Croshaw, better known for omitting punctuation while reviewing games, recently published his first novel, Mogworld. Like his reviews, it is fast-paced with strange analogies and a refreshing kind of creativity. Thankfully it includes puncuation. 
+
+In a world where death is no longer permanent, the nation's favourite pastime is suicide. Everybody gets a new body when they die after all. Everybody but Jim. He is a rather unlucky chap, who died before time froze. A kind necromancer did however see to it that his death would not be permanent. 
+
+/*
+Jim is a rather unlucky chap who did not even live long enough to reach adulthood. Death is however inconvenient rather than fatal when magic is involved, resulting in him having somewhat easily detatched bodyparts. Luckily one of his companions has a talent with needle and thread that overshadows her rather crazed persona. The other is a religious nutjob with a very selective and skewed view on his existence and the world. They follow Jim to assist him on his goal, being deleted. 
+*/
+
+
+name: Jim
+location: Mogworld
+appearance: tad decomposed, bony, thinning hair
+hobbies: long walks, suicide
+favourite animal: rabbit
+favourite spell: fireball
+Marmite factor: priests
+

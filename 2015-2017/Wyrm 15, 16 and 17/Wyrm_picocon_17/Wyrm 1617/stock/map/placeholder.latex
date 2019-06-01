@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{patterns}
+
+\begin{document}
+
+Lorem ipsum...
+
+\begin{figure}[h]
+\centering
+\resizebox{0.8\textwidth}{!}{\input{map.tikz}}
+\caption{The librarars}
+\end{figure}
+
+Dolor sit amet.
+
+\end{document}

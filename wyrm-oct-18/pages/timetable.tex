@@ -1,0 +1,94 @@
+% COLUMN TEMPLATE %
+\newenvironment{events-month}[2]{\ignorespaces
+  % EVENT TEMPLATE %
+  \newcommand{\event}[4]{
+    % arguments:
+    % #1 - date
+    % #2 - day
+    % #3 - type
+    % #4 - name
+    \begin{itemize}[leftmargin=4em]
+    \item[\texttt{{##2} {##1}}] \ifthenelse{
+      \isempty{##3}
+    }{
+      {##4}
+    }{
+      \textbf{##3}\newline
+      \textit{##4}
+    }
+    \end{itemize}
+  }
+    ~
+    \vspace{0.5em}
+    \begin{center}
+      \textbf{\large {#1}}
+    \end{center}
+    \vspace{1em} \hrule \vspace{0.5em}
+{#2}
+}{\ignorespacesafterend}
+%
+%\pagehead{ICSF Autumn Term Events Timetable}
+\begin{minipage}[t]{0.46\textwidth}
+\begin{events-month}{OCTOBER}{
+    \event{04}{THU}{}{Meet and Greet}
+    \event{05}{FRI}{Themed Friday}{Blockbuster Night}
+    \event{10}{WED}{Cinema Trip}{Venom}
+    \event{10}{WED}{}{Literary Lucky Dip}
+    \event{12}{FRI}{Themed Friday}{Indiana Jones}
+    \event{18}{THU}{}{Bar Night + Quiz}
+    \event{19}{FRI}{Themed Friday}{Monty Python}
+    \event{20}{SAT}{}{Book Crawl}
+    \event{25}{THU}{}{Escape Room}
+    \event{26}{FRI}{}{Halloween Party}
+    \event{27}{SAT}{}{Modern Horror\newline All-Nighter}
+  }
+\end{events-month}
+
+% AD-HOC FRAME FOR FIST-WEEK LUNCHTIME VIEWINGS
+\vspace{1.2em}
+\begin{framed}
+\vspace{-0.5em}
+{\centering \underline{\textbf{Week One Lunchtimes}} \par}
+\small
+\begin{itemize}[leftmargin=2.5em,topsep=0pt,itemsep=-0.2em]
+\newcommand{\lunchitem}[1]{\item[\textemdash{}] \textit{#1}}
+\lunchitem{Batman: The Animated Series}
+\lunchitem{Buffy the Vampire Slayer}
+\lunchitem{Doctor Who}%
+\lunchitem{Futurama}
+\lunchitem{Red Dwarf}
+\lunchitem{Star Trek: The Original Series}
+\lunchitem{Star Wars}
+\end{itemize}
+\vspace{1em}
+\end{framed}
+%%
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+\begin{events-month}{NOVEMBER}{
+    \event{02}{FRI}{Themed Friday}{Revenge of Blockbuster Night}
+    \event{03}{SAT}{}{Danger After 5}
+    \event{08}{THU}{}{Bar Night}
+    \event{09}{FRI}{Themed Friday}{Steampunk}
+    \event{10}{SAT}{}{Boardgame Night}
+    \event{16}{FRI}{Themed Friday}{Disney + Karaoke}
+    \event{17}{SAT}{Cinema Trip}{Fantastic Beasts}
+    \event{22}{THU}{}{Journal 3}
+    \event{23}{FRI}{Themed Friday}{Mad Max}
+    \event{24}{SAT}{}{John Carpenter Marathon}
+    \event{30}{FRI}{Themed Friday}{Bad Films}
+  }
+\end{events-month}
+\begin{events-month}{DECEMBER}{
+    \event{07}{FRI}{}{Christmas Party}
+    \event{14}{FRI}{Cinema Trip}{Aquaman}
+  }
+\end{events-month}
+\end{minipage}
+\vfill
+\begin{center}
+\textit{Regular lunchtime showings (every day!) continue past week one. Unofficial events not shown.}\par
+\textit{Be sure to subscribe to our mailing list to keep yourself up to date.}
+\end{center}
+\vspace*{\fill}

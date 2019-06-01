@@ -1,0 +1,56 @@
+\newcommand{\jokeAuthor}{}
+
+\newenvironment{joke}
+[2]
+{%
+	\pagebreak[2]
+	\renewcommand{\jokeAuthor}{#2}
+	{\large #1}
+
+	\begin{em}
+}{%
+	\end{em}
+
+	\notblank{\jokeAuthor}{\hfill-- \jokeAuthor}{}
+	\vspace{6mm}
+}%
+
+\parbox[t]{0.4\textwidth}{}
+\begin{joke}{Star Wars}{}
+\textbf{What do Jedi use to view PDF files?}\\
+Adobe wan Kenobi!\\
+\textbf{What's the body temperature of a Taun-Taun?}\\
+Lukewarm\\
+Chewbacca started a website to leak Empire secrets - it's called Wookieleaks
+\end{joke}
+
+\begin{joke}{Star Trek}{}
+\textbf{What did Spock find in Kirk's toilet?}\\
+The Captain's Log!\\
+\textbf{What does Captain Kirk have in common with toilet paper?}\\
+They both try to wipe out klingons!\\
+\end{joke}
+
+\parbox{0.08\textwidth}{~}
+\parbox[t]{0.5\textwidth}{
+\begin{joke}{Lord of the Rings}{}
+\textbf{What did the hobbit say when he bumped into a wizard?}\\
+Saruman, I didn't see you there.\\
+\textbf{What did Pippin do when he got drunk?}\\
+He began to feel Merry!\\
+\textbf{How did the hobbit ruin the boxing match?}\\
+He tried to destroy the ring.
+\end{joke}
+}
+
+\parbox{0.08\textwidth}{~}
+\parbox[t]{0.5\textwidth}{
+\begin{joke}{Superheroes}{}
+\textbf{What does Batman put in his drinks?}\\
+Just ice\\
+\textbf{What is Iron Man without his suit?}\\
+Stark naked!
+\end{joke}
+}
+
+\footnotetext{The editor would like to thank the internet and various people in the library, excluding Joseph, who was so surprised that someone was \textit{actually asking} him to tell bad jokes for once that he couldn't provide any.}

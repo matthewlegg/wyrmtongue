@@ -1,0 +1,188 @@
+\documentclass[a4paper,12pt]{article}
+
+% Input Encoding
+\usepackage[utf8]{inputenc}
+% Margin Controls
+\usepackage[a4paper,bottom=3cm,left=2cm,right=2cm,top=2cm]{geometry}
+% Hyphenation libraries
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+
+% Layout and graphics libraries
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage[perpage,symbol*,bottom,hang,multiple]{footmisc}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usetikzlibrary{patterns}
+
+% Page style
+\pagestyle{plain}
+\newcommand{\fixparskip}{\setlength{\parskip}{4mm plus1mm minus1mm}}
+\fixparskip
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\renewcommand{\arraystretch}{2}
+
+% Article Environment
+\newcommand{\articleAuthor}{}
+\newenvironment{article}[2]{
+	\pagebreak[2]
+	\renewcommand{\articleAuthor}{#2}
+	
+	{\Huge#1}
+
+	}{
+
+	\notblank{\articleAuthor}{\hfill\Large\articleAuthor}{}
+	\vspace{12mm}
+	}
+
+\begin{document}
+% Title Page
+\begin{center}
+~ % Non-breaking space so that the page starts, and \vfill evaluates
+\vfill
+\includegraphics[width=\textwidth,height=0.7\textheight,keepaspectratio]{pictures/cover}
+\vfill
+
+\resizebox{!}{16mm}{Picocon 34}
+
+\resizebox{!}{10mm}{Futurism}\\
+\vspace{1mm}
+%\resizebox{!}{6mm}{\it{ }} %Use to add subtitle e.g. 'In Medias Res' (Picocon 33)
+
+\vspace{5mm}
+\resizebox{!}{8mm}{Wyrmtongue}
+
+\thispagestyle{empty}
+\end{center}
+\clearpage
+% End of title page
+
+
+\begin{article}{The King's Speech}{Henry Wild - ICSF Chair}
+	\input{articles/intro.tex}
+\end{article}
+
+\begin{article}{The Sofa's Ramblings}{Elizabeth Windo - Picocon Sofa}
+	\input{articles/beth_intro.tex}
+\end{article}
+
+\begin{article}{A Word from the Beanbag}{Edward Da Fonesca - Picocon Beanbag}
+	\input{articles/beanbag.tex}
+\end{article}
+
+\pagebreak
+\begin{article}{What's On}{}
+	\input{articles/other_activities.tex}
+\end{article}
+
+\begin{article}{Futurism}{ }
+	\input{articles/futurism.tex}
+\end{article}
+
+\begin{article}{Predicting Picocon}{ }
+	\input{articles/predicting.tex}
+\end{article}
+
+\pagebreak
+
+\begin{article}{Tabletop Gaming at Picocon!}{B\'{a}lint Babik - Chair, Imperial College Tabletop Gaming Society}
+	\input{articles/tabletop.tex}
+\end{article}
+\begin{article}{Gaming}{Ariana Sadr-Hashemi – Chair, Imperial College Gaming Club}
+	\input{articles/gaming.tex}
+\end{article}
+
+\clearpage
+\begin{article}{Schedule}{}
+	\input{articles/picocon_timetable.tex}
+\end{article}
+
+\vspace{- 2 cm}
+
+\begin{article}{Lunch details}{}
+	\input{articles/lunch_menu.tex}
+\end{article}
+
+\clearpage
+
+\begin{article}{Guests of Honour}{}
+\input{articles/bio-fenn.tex}
+\\ \\
+\input{articles/bio-mcauley.tex}
+\\ \\
+\input{articles/bio-al-robertson.tex}
+\\ \\
+\input{articles/bio-justina-robson.tex}
+\clearpage
+\input{articles/bio-ashens.tex}
+%	\begin{tabular}{p{\dimexpr\columnwidth}}
+%	\\
+%		\input{articles/bio-fenn.tex}
+%
+%		\vspace{4cm} ~
+%	\\
+%		\input{articles/bio-mcauley.tex}
+%
+%		\vspace{4cm} ~
+%	\\
+%		\input{articles/bio-al-robertson.tex}
+%
+%		\vspace{4cm} ~
+%	\\
+%		\input{articles/bio-justina-robson.tex}
+%
+%		\vspace{4cm} ~
+%	\\
+%		\input{articles/bio-ashens.tex}
+%	\end{tabular}
+\end{article}
+
+\clearpage
+
+\begin{article}{Vendors}{}
+	\input{articles/vendors.tex}
+\end{article}
+
+\clearpage
+\begin{article}{Quest Objectives}{}
+	\input{puzzles/scavenger.tex}
+\end{article}
+
+\begin{article}{Nonogram}{}
+	\begin{center}
+POSSIBLE NONOGRAM HERE
+	%	\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{puzzles/nonogram.jpg}
+	\end{center}
+\end{article}
+
+\pagebreak
+
+\begin{article}{Crossword}
+
+\begin{center}
+POSSIBLE CROSSWORD HERE
+%	\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{puzzles/crossword.jpg}
+\end{center}
+
+\begin{multicols}{2}
+POSSIBLE CROSSWORD HERE
+	%\input{puzzles/cword.latex}
+\end{multicols}
+
+\end{article}
+
+\begin{article}{Map}{}
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./stock/campusmap/map.tikz}}
+	\end{center}
+\end{article}
+
+\end{document}

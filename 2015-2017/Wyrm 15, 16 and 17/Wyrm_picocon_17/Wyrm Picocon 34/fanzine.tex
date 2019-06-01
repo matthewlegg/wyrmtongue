@@ -1,0 +1,115 @@
+\documentclass[a4paper,14pt]{article}
+
+% Input Encoding
+\usepackage[utf8]{inputenc}
+% Margin Controls
+\usepackage{extsizes}
+\usepackage[a4paper,bottom=3cm,left=2cm,right=2cm,top=2cm]{geometry}
+% Hyphenation libraries
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+
+% Layout and graphics libraries
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage[perpage,symbol*,bottom,hang,multiple]{footmisc}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{lipsum}  
+\usepackage{etoolbox}
+
+\usetikzlibrary{patterns}
+
+% Page style
+\pagestyle{plain}
+\newcommand{\fixparskip}{\setlength{\parskip}{4mm plus1mm minus1mm}}
+\fixparskip
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\renewcommand{\arraystretch}{2}
+
+% Article Environment
+\newcommand{\articleAuthor}{}
+\newenvironment{article}[2]{
+	\pagebreak[2]
+	\renewcommand{\articleAuthor}{#2}
+	
+	{\Huge#1}
+
+	}{
+
+	\notblank{\articleAuthor}{\hfill\Large\articleAuthor}{}
+	\vspace{12mm}
+	}
+
+\begin{document}
+% Title Page
+\begin{center}
+~ % Non-breaking space so that the page starts, and \vfill evaluates
+\vfill
+\includegraphics[width=\textwidth,height=0.7\textheight,keepaspectratio]{pictures/cover}
+\vfill
+
+%\resizebox{!}{16mm}{Picocon 34}
+\resizebox{!}{16mm}{Futurism} 
+%\resizebox{!}{10mm}{Futurism}\\
+\vspace{1mm}
+%\resizebox{!}{6mm}{\it{ }} %Use to add subtitle e.g. 'In Medias Res' (Picocon 33)
+
+\vspace{5mm}
+\resizebox{!}{8mm}{ICSF Fanzine}
+
+\thispagestyle{empty}
+\end{center}
+\clearpage
+% End of title page
+
+
+
+\begin{article}{Welcome from the editor}{Robin `Dobbin' Thomas}
+	\input{articles/intro.tex}
+\end{article}
+
+Image credits:
+\begin{itemize}
+\item Cover - Zoe Vallis
+\item Sainsbury's van - www.j-sainsbury.co.uk
+\item Ocado van - www.harrybromptons.com/harry-in-ocado
+\item Werther's Originals - en.wikipedia.org/wiki/Werther's\textunderscore Original
+\end{itemize}
+\clearpage
+\tableofcontents
+\clearpage
+
+\clearpage
+\section{`Styx and Stones' by Smitha Maretvadakethope}
+\input{articles/styx_and_stones.tex}
+
+\clearpage
+\section{`Weary Spirit' by Saad Ahmed}
+\input{articles/weary_spirit.tex}
+
+\clearpage
+\section{`Recreational Meteorology' by Elizabeth Windo}
+\input{articles/recreational_meteorology.tex}
+
+\clearpage
+\section{`Human' by Sanchit Sharma}
+\input{articles/transhumanism.tex}
+
+\clearpage
+\section{`The Enlightened One' by Jian Li Chew}
+\input{articles/the_enlightened_one.tex}
+
+\clearpage
+\section{`Delivery' by Robin `Dobbin' Thomas}
+\input{articles/delivery.tex}
+
+\clearpage
+\section{`The Sleepy Misadventures of Shane' by ICSF members who were in the library on the evening of the 10\textsuperscript{th} of Febuary}
+\input{articles/collaborative_story.tex}
+
+\end{document}

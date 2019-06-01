@@ -1,0 +1,172 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,bottom=2.5cm,left=2cm,right=2cm,top=2cm]{geometry}
+
+% hyphenation, date format, font encoding
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+\usepackage[T1]{fontenc}
+\usepackage{xhfill}
+
+% dagger footnotes & re-start count every page
+\usepackage{perpage}
+\MakePerPage[2]{footnote}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% graphics imports
+\usepackage{graphicx}
+\usepackage{caption}
+
+% plain page style
+\pagestyle{plain}
+
+% conditional page formats
+\usepackage{changepage}
+
+% multiple columns & long tables
+\usepackage{multicol} \setlength{\columnsep}{3em}
+\usepackage{longtable}
+
+% box padding
+\setlength{\fboxsep}{1ex}
+\renewcommand{\arraystretch}{1.2}
+
+% newlines after packages
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+\makeatletter
+\newcommand{\@minipagerestore}{
+  \setlength{\parskip}{1em}
+}
+\makeatother
+
+% lists & tables
+\usepackage{enumitem}
+\usepackage{multirow}
+
+% puzzle
+\usepackage{logicpuzzle}
+\usepackage[unboxed]{cwpuzzle}
+% fonts & spacing
+\usepackage[rm]{roboto}
+\usepackage{roboto-mono}
+\usepackage{microtype}
+
+% icons
+\usepackage{fontawesome}
+
+% alternative font (URW Grotesk)
+\newcommand{\altfont}[1]{\fontfamily{ugq}\selectfont \uppercase{#1}}
+\renewcommand{\emph}[1]{\textbf{\em{#1}}}
+
+% end mark
+\newcommand{\tombstone}[1]{%
+  \includegraphics[height=\fontcharht\font`\B,clip]{#1}
+}
+
+% title headers
+\newcommand{\head}[1]{
+  \noindent\xrfill[0.5ex]{0.5pt}\
+  \altfont{#1}\
+  \xrfill[0.5ex]{0.5pt}
+}
+\newcommand{\pagehead}[1]{
+  \begin{center} {\Huge \head{#1}} \end{center}
+  %\vspace{1mm}
+}
+% smaller header
+\newcommand{\subhead}[1]{
+  \begin{center}
+    \vspace{0.5\baselineskip}
+    \parbox{0.95\textwidth}{{\large \head{#1} }}
+    \vspace{0.5\baselineskip}
+  \end{center}
+}
+
+
+\begin{document}
+
+% TITLE PAGE %
+\thispagestyle{empty}
+\vspace*{\fill}
+        {
+          \centering
+          \includegraphics[width=\textwidth,keepaspectratio]
+                          {img/picocon-36-graphic.png}
+        }
+        \vfill
+        \clearpage
+
+        % definition for chair/sofa/beanbag articles
+        \newcommand{\seat}[4]{
+          % #1 - author name
+          % #2 - author post
+          % #3 - text source
+          % #4 - tombstone
+          \vspace{\parskip}
+          \input{#3}\tombstone{#4}
+          \vspace{0.5\parskip}
+          \begin{flushright}
+            \parbox{0.4\textwidth}{
+              \par {\Large \altfont{#1}}
+              \par \vspace{-\parskip} {#2}
+            }
+          \end{flushright}
+        }
+
+        \pagehead{The King's Speech}
+        \seat{Henry Wild}{ICSF Chair}{txt/chair}{img/t-scifi}
+        \vfill
+        \input{pages/media}
+        \vfill
+        \clearpage
+
+        \pagehead{The Sofa's Ramblings}
+        \seat{Edward Pickup}{Picocon Sofa}{txt/sofa}{img/t-scifi}
+        \clearpage
+
+        \pagehead{A Word from the Beanbag}
+        \seat{Harry Black}{Picocon Beanbag}{txt/beanbag}{img/t-scifi}
+        \vfill
+        \pagehead{What's On}
+        \input{txt/whats-on}
+        \vspace{2.5\baselineskip}
+        \clearpage
+
+        \pagehead{Schedule}
+        \input{pages/timetable}
+        \clearpage
+
+        \pagehead{Guests of Honour}
+        \input{pages/guests}
+        \clearpage
+
+        \pagehead{Tabletop \& Gaming}
+        \seat{Caroline Larkin}{
+          Chair, Imperial College Gaming
+        }{txt/gaming}{img/t-gaming}
+        \vfill
+        \pagehead{Vendors}
+        \input{pages/vendors}
+        \clearpage
+
+        \pagehead{Quest Objectives}
+        \input{pages/quest-info} \clearpage
+        \input{pages/quest-list} \clearpage
+
+        \pagehead{Nonogram}
+        \input{pages/nonogram}
+        \clearpage
+
+        \pagehead{Crossword}
+        \input{pages/crossword}
+        \clearpage
+
+        \pagehead{Directions}
+        \input{pages/map}
+        \clearpage
+%%        \input{pages/back-matter}
+        %%        \clearpage
+        \pagehead{Notes and Stuff}
+        \clearpage
+\end{document}

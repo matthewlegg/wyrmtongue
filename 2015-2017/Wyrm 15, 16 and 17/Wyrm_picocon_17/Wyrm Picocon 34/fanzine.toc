@@ -1,0 +1,8 @@
+\select@language {british}
+\contentsline {section}{\numberline {1}`Styx and Stones' by Smitha Maretvadakethope}{4}
+\contentsline {section}{\numberline {2}`Weary Spirit' by Saad Ahmed}{10}
+\contentsline {section}{\numberline {3}`Recreational Meteorology' by Elizabeth Windo}{12}
+\contentsline {section}{\numberline {4}`Human' by Sanchit Sharma}{13}
+\contentsline {section}{\numberline {5}`The Enlightened One' by Jian Li Chew}{18}
+\contentsline {section}{\numberline {6}`Delivery' by Robin `Dobbin' Thomas}{26}
+\contentsline {section}{\numberline {7}`The Sleepy Misadventures of Shane' by ICSF members who were in the library on the evening of the 10\textsuperscript {th} of Febuary}{41}

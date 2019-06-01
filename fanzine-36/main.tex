@@ -1,0 +1,165 @@
+% encoding & geometry
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,bottom=2.5cm,left=2cm,right=2cm,top=2cm]{geometry}
+
+% hyphenation & date format
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+
+%graphics imports
+\usepackage{graphicx}
+\usepackage{caption}
+
+% page style
+\pagestyle{plain}
+\makeatletter
+\renewcommand{\tableofcontents}{%
+  \@starttoc{toc}%
+}
+\makeatother
+\renewcommand{\thesection}{}
+
+% dagger footnotes & re-start count every page
+\usepackage{perpage}
+\MakePerPage[2]{footnote}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% lists
+\usepackage{enumitem}
+
+% paragraph spacing
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{1em}
+
+% default font
+\usepackage{tgschola}
+\renewcommand*{\ttdefault}{lmvtt}
+\usepackage[T1]{fontenc}
+
+% drop caps
+\usepackage{lettrine}
+
+% end mark
+\usepackage{amssymb}
+\newcommand{\tombstone}[0]{$\mathbf{\Psi\!\Phi}$}
+
+% TITLE PAGE %
+\thispagestyle{empty}
+
+\begin{document}
+
+\vspace*{15mm}
+\begin{center}
+  \includegraphics[width=0.96\textwidth]{img/cover-italics.png}
+\end{center}
+\vfill
+\begin{flushright}
+  {\large \textbf{\textit{ICSF fanzine\\[0.2em]2019\phantom{.}}}}
+  %\includegraphics[width=0.4\textwidth]{img/cover-2.png}
+\end{flushright}
+\clearpage
+
+% CAPS TITLE
+\newcommand{\ctth}[1]{
+  {\Large \textbf{\uppercase{#1}}} \par
+  \hrule
+  \vspace{0.5\baselineskip}
+}
+
+% SHORT HLINE
+\newcommand{\shorthline}{
+  \vspace{0.2\baselineskip}
+  \begin{center}\rule{0.1\textwidth}{0.4pt}\end{center}
+  \vspace{0.7\baselineskip}
+}
+
+\ctth{From the Editor}
+\input{txt/editor} \tombstone
+
+\hspace{0.7\textwidth} \parbox{48mm}{
+    {\large \textbf{Jean Lo}} \\[-0.1em]
+{\small Wyrmtongue Editor}
+  }
+
+\vspace{0.5\baselineskip}
+\ctth{Contents}
+
+\tableofcontents
+\vfill
+\clearpage
+
+\newcommand{\storyhead}[3]{
+  \section[
+    #1 \\{\normalfont {#2}}
+    \\{\normalfont {\footnotesize \textit{#3}}}
+  ]{
+    \\[-0.5\baselineskip] {#1}
+    \\[-0.2em] {\normalsize\normalfont #2}
+  }
+}
+\newcommand{\story}[4]{
+  % #1 - title
+  % #2 - author
+  % #3 - hook
+  % #4 - content path
+  \storyhead{#1}{#2}{#3}
+  \input{#4}
+  \tombstone
+}
+
+\newcommand{\artworkc}[3]{
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{#3}
+    \par
+    \textbf{#1} \textendash{} {#2}
+  \end{center}
+}
+
+\story{Speak Easy}{Smitha Maretvadakethope}{
+  I was leaning against the bar in a speakeasy on 52nd Street \ldots
+}{txt/maretvadakethope}
+\clearpage
+
+\story{ A Tour of Tost: Arrival at Torados}{Gautam Kambhampati }{
+  Trading was done of necessity, for Tost had no resources beyond the
+  ability to grow grain. }{txt/kambhampati}
+\clearpage
+
+\section[Microfiction Contest Winners]{}\vspace{-1.5\baselineskip}
+\input{pages/microfiction}
+\clearpage
+
+\story{
+  Life In The Dark}{Elliot Reuben
+}{
+  It goes dark, but a colourful kind of dark. I hear others \ldots
+}{txt/reuben}
+\clearpage
+
+\story{
+  On Teleportation}{Anonymous
+}{
+  Teleportation is a much less useful spell than it at first seems to be.
+}{txt/anon}
+\clearpage
+
+\section[8 {\normalfont \textemdash{} {artwork by Larissa KT}}]{}
+\vspace{-1.5\baselineskip}
+\artworkc{8}{Larissa KT}{img/kt.jpg}
+\clearpage
+
+\story{
+  Parlance}{Erin Lovell
+}{
+  There's an Old Earthen language, see, that has this saying about \ldots
+}{txt/lovell}
+\clearpage
+
+\story{ Home Are The Sulphur-Dust Rains}{Alexander Lipien }{
+  Calm before the storm doesn't fit, I don't think. Not here. Here's
+  always storm.  }{txt/lipien}
+\clearpage
+
+\end{document}

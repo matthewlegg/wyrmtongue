@@ -1,0 +1,119 @@
+\documentclass[a4paper,14pt]{article}
+
+% Input Encoding
+\usepackage[utf8]{inputenc}
+% Margin Controls
+\usepackage{extsizes}
+\usepackage[a4paper,bottom=3cm,left=2cm,right=2cm,top=2cm]{geometry}
+% Hyphenation libraries
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+
+% Layout and graphics libraries
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage[perpage,symbol*,bottom,hang,multiple]{footmisc}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{lipsum}  
+\usepackage{etoolbox}
+
+\usetikzlibrary{patterns}
+
+% Page style
+\pagestyle{plain}
+\newcommand{\fixparskip}{\setlength{\parskip}{4mm plus1mm minus1mm}}
+\fixparskip
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\renewcommand{\arraystretch}{2}
+
+% Article Environment
+\newcommand{\articleAuthor}{}
+\newenvironment{article}[2]{
+	\pagebreak[2]
+	\renewcommand{\articleAuthor}{#2}
+	
+	{\Huge#1}
+
+	}{
+
+	\notblank{\articleAuthor}{\hfill\Large\articleAuthor}{}
+	\vspace{12mm}
+	}
+
+\begin{document}
+% Title Page
+\begin{center}
+~ % Non-breaking space so that the page starts, and \vfill evaluates
+\vfill
+\includegraphics[width=\textwidth,height=0.7\textheight,keepaspectratio]{pictures/cover}
+\vfill
+
+%\resizebox{!}{16mm}{Picocon 35}
+\resizebox{!}{16mm}{Harmony} 
+%\resizebox{!}{10mm}{Harmony}\\
+\vspace{1mm}
+%\resizebox{!}{6mm}{\it{ }} %Use to add subtitle e.g. 'In Medias Res' (Picocon 33)
+
+\vspace{5mm}
+\resizebox{!}{8mm}{ICSF Fanzine}
+
+\thispagestyle{empty}
+\end{center}
+\clearpage
+% End of title page
+
+\clearpage{\null\newpage}
+
+\begin{article}{Welcome from the editor}{Katherine Read}
+	\input{articles/intro.tex}
+\end{article}
+
+Image credits:
+\begin{itemize}
+\item Cover - Connor Winzar
+\item Raven - Smitha Maretvadakethope
+\item The Drop - Anonymous
+\end{itemize}
+\clearpage
+\tableofcontents
+\clearpage
+
+\clearpage
+\section{`Not Quite an Unkindness' by Smitha \sloppy Maretvadakethope}
+\input{articles/unkindness.tex}
+
+\clearpage
+\section{`The Cache' by Patrick Cronin-Coltsmann}
+\input{articles/cache.tex}
+
+\clearpage
+\section{`Drunk with Power' by Saad Ahmed}
+\input{articles/drunk_with_power.tex}
+
+\clearpage
+\section{`The Drop' by Anonymous}
+\input{articles/drop.tex}
+
+\clearpage
+\section{`Daddy's Here' by Jian Li Chew}
+\input{articles/daddys_here.tex}
+
+\clearpage
+\section{`Countdown' by Katherine Read}
+\input{articles/t_minus_ten.tex}
+
+\clearpage
+\section{Six-Word Story Contest Winners}
+\input{articles/contest.tex}
+
+\clearpage
+\begin{figure}
+\thispagestyle{empty}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,57 @@
+\newcommand{\profiletxt}[1]{
+  \begin{minipage}[t]{0.74\textwidth}
+    \vspace{0pt}
+    \input{#1}
+  \end{minipage}
+}
+\newcommand{\profileimg}[2]{
+  \begin{minipage}[t]{0.22\textwidth}
+    \vspace{0pt}
+    \includegraphics[width=\textwidth]{#2}
+    \\ [0.5em]
+       {\Large \altfont{#1}}
+  \end{minipage}
+}
+\newcommand{\profile}[3]{
+  \checkoddpage\ifoddpage
+  \profiletxt{#3}\hspace*{\fill}\profileimg{#1}{#2}
+  \else
+  \profileimg{#1}{#2}\hspace*{\fill}\profiletxt{#3}
+  \fi
+}
+%% \newcommand{\profile}[3]{
+%%   % #1 - name
+%%   % #2 - path to image
+%%   % #3 - path to text
+%%   \begin{minipage}[t]{0.74\textwidth}
+%%     \vspace{0pt}
+%%     \input{#3}
+%%   \end{minipage}
+%%   \hspace*{\fill}
+%%   \begin{minipage}[t]{0.22\textwidth}
+%%     \vspace{0pt}
+%%     \includegraphics[width=\textwidth]{#2}
+%%     \\ [0.5em]
+%%     {\Large \altfont{#1}}
+%%   \end{minipage}
+%% }%
+\profile{Andrew Bannister}
+        {img/guests/a-bannister.png}
+        {txt/guests/a-bannister}
+\vfill
+\profile{Simon Morden}
+        {img/guests/s-morden.png}
+        {txt/guests/s-morden}
+\vfill
+\clearpage
+\profile{Lottie Bevan}
+        {img/guests/l-bevan.png}
+        {txt/guests/l-bevan}
+
+\profile{Alexis Kennedy}
+        {img/guests/a-kennedy.png}
+        {txt/guests/a-kennedy}
+\vfill
+\profile{Gavin Smith}
+        {img/guests/g-smith.png}
+        {txt/guests/g-smith}

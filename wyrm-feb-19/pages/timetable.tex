@@ -1,0 +1,74 @@
+% wanted to do some fancy macro things to make this not tedious, but it's
+% Tuesday on the week of Picocon and I am panicking.
+\newcommand{\mtr}[2]{ \multirow{#1}{*}{\parbox{0.6\textwidth}{#2}} }
+\newcommand{\tevent}[3]{
+  {#1} \textbf{#2} \par \vspace{0.1\baselineskip}{\footnotesize #3} \par
+}
+
+\begin{center}
+  \begingroup
+  \renewcommand*{\arraystretch}{2.3}
+  \begin{tabular}[t]{p{0.1\textwidth} l}
+    \hline
+    \texttt{09:00} &
+    \tevent{Front Desk / registration opens}{}{} \\ \cline{2-2}
+
+    \texttt{09:30} &
+    \mtr{2}{
+      \tevent{Guest Talk:}{Lottie Bevan \& Alexis Kennedy}{Blackett Bulding LT1}
+    } \\
+    \texttt{10:00} & \\ \cline{2-2}
+
+    \texttt{10:30} &
+    \mtr{2}{
+      \tevent{Guest Talk:}{Gavin Smith}{Blackett Building LT1}
+    } \\
+    \texttt{11:00} & \\ \cline{2-2}
+
+    \texttt{11:30} &
+    \mtr{2}{
+      \tevent{Guest Talk:}{Andrew Bannister}{Blackett Building LT1}
+    } \\
+    \texttt{12:00} & \\ \cline{2-2}
+
+    \texttt{12:30} &
+    \mtr{3}{
+      \tevent{}{Lunch}{Imperial College Union, Beit Quad} \vspace{1em}
+      \tevent{}{Destruction of Dodgy Merchandise}{Queen's Lawn (starting 13:15)}
+    } \\
+    \texttt{13:00} & \\
+    \texttt{13:30} & \\ \cline{2-2}
+
+    \texttt{14:00} &
+    \mtr{2}{
+      \tevent{Guest Talk:}{Simon Morden}{Blackett Building LT1}
+    } \\
+
+    \texttt{14:30} & \\ \cline{2-2}
+
+    \texttt{15:00} &
+    \mtr{2}{
+      \tevent{}{Guest Panel}{Blackett Building LT1}
+    } \\
+
+    \texttt{15:30} & \\ \cline{2-2}
+    \texttt{16:00} &
+    \mtr{4}{
+      \tevent{}{Turkey Readings \& Silly Games}{Blackett Building LT1}
+      \vspace{1em}
+      \tevent{}{Tabletop \& Video Games}{Blackett Building 1004}
+      \vspace{1em}
+      \tevent{}{Harmless Fun}{Queen's Lawn (starting 17:30)}
+    } \\
+    \texttt{16:30} & \\
+    \texttt{17:00} & \\
+    \texttt{17:30} & \\ \cline{2-2}
+
+    \texttt{18:00} &
+    \mtr{2}{
+      \tevent{}{Pub Quiz}{Blackett Building LT1}
+    } \\
+    \texttt{18:30} & \\ \hline
+  \end{tabular}
+  \endgroup
+\end{center}

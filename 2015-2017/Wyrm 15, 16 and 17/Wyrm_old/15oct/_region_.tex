@@ -1,0 +1,152 @@
+\message{ !name(wyrm-test.tex)}\documentclass[a4paper,12pt]{article}
+% Input Encoding
+\usepackage[utf8]{inputenc}
+% Margin Controls
+\usepackage[a4paper,bottom=2.8cm,left=2cm,right=2cm,top=2cm]{geometry}
+% Hyphenation libraries
+\usepackage[british]{babel}
+\usepackage{hardwrap}
+% Layout and graphics libraries
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage[perpage,symbol*,bottom,hang,multiple]{footmisc}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{etoolbox}
+\usetikzlibrary{patterns}
+
+\DeclareGraphicsExtensions{.jpeg,.jpg,.png}
+
+% Page style
+\pagestyle{plain}
+\newcommand{\fixparskip}{\setlength{\parskip}{4mm plus1mm minus1mm}}
+\fixparskip
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\renewcommand{\arraystretch}{2}
+
+% Article Environment
+\newcommand{\articleAuthor}{}
+\newenvironment{article}[3]{
+	\pagebreak[2]
+	\renewcommand{\articleAuthor}{#2}
+
+	\notblank{#3}{
+		\raisebox{-3mm}{\resizebox{!}{12mm}{\includegraphics{pictures/#3}}}
+		\hspace{3mm}
+	}{}
+	{\Huge#1}
+
+}{
+
+\notblank{\articleAuthor}{\hfill\Large\articleAuthor}{}
+\vspace{12mm}
+}
+
+\hyphenation{bat-tle-star}
+\hyphenation{gal-act-ica}
+\hyphenation{air-ben-der}
+
+\begin{document}
+
+\message{ !name(wyrm-test.tex) !offset(-3) }
+
+% Title Page
+\begin{center}
+~ % Non-breaking space so that the page starts, and \vfill evaluates
+\vfill
+\includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{pictures/dragon}
+\vfill
+
+\resizebox{!}{8mm}{Wyrmtongue}
+
+\thispagestyle{empty}
+\end{center}
+\clearpage
+% End of title page
+
+% ARTICLES BEGIN HERE
+\begin{article}{Welcome}{-- Amelia Owens, Editor}{amelia}
+	\input{articles/introduction}
+\end{article}
+
+\begin{article}{Captain's Log}{-- Anurag Deshpande, ICSF Chair Entity}{anurag}
+	\input{articles/chair}
+\end{article}
+
+\newpage
+
+\begin{article}{Welcome to the Library!}{-- Laura Beseler-Maxwell, ICSF Librarian}{laura}
+	\input{articles/librarian}
+\end{article}
+
+\newpage
+
+\begin{article}{Book Recommendations}{-- The Committee}{}
+	\input{articles/books}
+\end{article}
+
+\newpage
+
+\begin{article}{Picocon}{-- Noor Mulheron}{noor}
+	And now a message from our Sofa...\footnote{More comfortable than a chair}\\
+	\input{adverts/picocon}
+\end{article}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{adverts/picocon_flyer}
+
+\newpage
+
+\begin{article}{Events Timetable}{Peter Dawson, Chair of Vice}{peter}
+	\input{articles/events}
+\end{article}
+
+\newpage
+\input{articles/timetable}
+
+\newpage
+
+\begin{article}{Steampunks}{}{}
+	\input{adverts/steampunks}
+\end{article}
+
+\vspace{-5mm}
+\begin{article}{Getting Involved}{}{}
+	\input{articles/mailing}
+\end{article}
+
+\newpage
+
+% END OF ARTICLES HERE
+
+%START OF PUZZLES
+
+\begin{article}{Jokes}{}{}
+	\input {puzzles/riddles}
+\end{article}
+
+%END OF PUZZLES
+
+% Back page
+\newpage
+\thispagestyle{empty}
+\begin{center}
+
+	~\vfill
+
+	\resizebox{0.6\textwidth}{!}{\input{../stock/map/map.tikz}}
+
+	\vfill
+
+	%\includegraphics[height=3cm]{../stock/logo/logo}
+	~
+	\includegraphics[height=3cm]{../stock/logo/qr}
+
+	Published By ICSF October 2014 --- \url{icsf.org.uk}
+\end{center}
+
+\end{document}
+
+\message{ !name(wyrm-test.tex) !offset(-152) }

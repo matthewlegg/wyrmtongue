@@ -1,0 +1,25 @@
+% all distances are in cm, as this is default tikz grid size
+%
+% You will need tikzpackages:
+% calc
+
+\begin{tikzpicture}
+
+	% Quandrangle border
+	\draw (4,0) -- (0,0) -- (0,13) -- (10,13) -- (10,0) -- (6,0) -- (6,-1) -- (13,-1) -- (13,15) -- (-3,15) -- (-3,-1) -- (4,-1) -- (4,0) [fill=gray];
+
+	% Tables
+	\node (tables) at (5,11) [minimum width=8cm, minimum height=2cm, fill=gray!30, font=\large] {TABLES};
+
+	% grassy areas
+	\filldraw (1,1.5) rectangle (4,3) [color=gray!20];
+	\filldraw (1,4) rectangle (4,9) [color=gray!20];
+	\filldraw (6,4) rectangle (9,9) [color=gray!20];
+	\filldraw (6,1.5) rectangle (9,3) [color=gray!20];
+
+	\node at (5,6) [font=\Huge] {Beit Quad};
+
+	\node (icsf) at (-0.5,7.5) [fill=white, draw=black, rotate=90, minimum height=1cm, minimum width=3cm, font=\large] {ICSF};
+	\draw[-latex,line width=2pt] (5,-1) -- (5,3.5) -- (-1.5,3.5) -- (-1.5,7.5) -- (icsf);
+
+\end{tikzpicture}
