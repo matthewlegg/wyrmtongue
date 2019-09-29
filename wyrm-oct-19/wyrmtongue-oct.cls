@@ -27,10 +27,9 @@
 
 %% HEADERS
 \newcommand{\pagehead}[1]{%
-  \parbox[t][1em]{\textwidth}{\centering \Huge \altfont{#1}}
-  \vspace{0.2em}
+  \parbox[t][\baselineskip]{\textwidth}{\centering \Huge \altfont{#1}}\par
   \hrule
-  \vspace{0.1em}
+  \vspace{0.5em}
 }
 \newcommand{\subhead}[1]{
   \vspace{1em}
@@ -86,40 +85,47 @@
   % #2 - book title
   % #3 - author
   % #4 - tagline
-  \vspace{\fill}
+  \vspace{0.5em}
   #1\newline
   \hspace*{1.5em}--- \altfont{#2}
   % if invoked without an author, the 'by #3' text is omitted.
   \if#3\empty\else by \fi{#3}\newline
   \hspace*{1.5em}\textit{#4}
-  \vspace{\fill}
 }
+
 
 %% TIMETABLE
 \RequirePackage{lscape} % render individual pages in landscape
+
+%% TIMETABLE - CALENDAR
+\RequirePackage{array}
+
+%% TIMETABLE - COMPACT LIST
 \newenvironment{timetable}{}{}
-\newcommand{\timetablemonth}[2]{%
-  % #1 - month
-  % #2 - list of events
-  \hspace*{\fill}
-  \begin{minipage}[t]{0.3\linewidth}
-    % this is \linewidth because the landscape environement doesn't
-    % set \textwidth.
-    {\centering \subhead{\MakeUppercase{#1}}}
-    \hrule
-    #2
-  \end{minipage}
-  \hspace*{\fill}
+
+\newlength{\timetablemonth@leftmargin}
+\newenvironment{timetablemonth}[2]{%
+  % #2 - month
+  % #1 - date format
+  {\centering \subhead{\MakeUppercase{#2}}}
+  \hrule
+  % calculate leftmargin according to date format supplied so that the
+  % start of the date always aligns with the left of the
+  % paragraph.
+  \settowidth{\timetablemonth@leftmargin}{\texttt{#1N}}
+  \begin{itemize}[leftmargin=\timetablemonth@leftmargin]
+}{
+  \end{itemize}
 }
+
 \newcommand{\timetableevent}[4]{%
   % #1 - date & day of week
   % #2 - time & location
   % #3 - name
   % #4 - description
-  \parbox[t][][t]{0.2\textwidth}{\texttt{#1}}\hspace{\fill}
-  \parbox[t][][t]{0.7\textwidth}{
-    \textbf{#3}\newline#4{\footnotesize\newline \texttt{#2}}
-  }\par
+\item[\texttt{#1}]
+  \def\tmp{#4}\ifx\tmp\empty #3\else{\textbf{#3}\newline\textit{#4}}\fi%
+  \def\tmp{#2}\ifx\tmp\empty \else\newline{\footnotesize \texttt{#2}}\fi%
 }
 
 
@@ -162,7 +168,7 @@
 }
 
 % blank underscore, for fill-in-the-blank type clues.
-\newcommand{\crosswordblank}[1][2em]{\underline{\hspace{#1}}}
+\newcommand{\crosswordblank}[1][1.8em]{\rule{#1}{0.4pt}}
 
 % a list of crossword clues.
 \newenvironment{crosswordclues}[2][]{

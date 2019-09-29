@@ -1,27 +1,136 @@
-\begin{landscape}
-  \begin{timetable}
-\timetablemonth{October}{
-  \timetableevent{WED 02}{12:00-20:00 ICSF Library}{}{Wanna Go Wednesday}
-  \timetableevent{THU 03}{18:00-24:30 Blackett 1004}{}{Meet and Greet}
-  \timetableevent{FRI 04}{}{Theme Friday}{Blockbuster Night}
-  \timetableevent{      }{}{Cinema Trip}{Joker}
-  \timetableevent{FRI 11}{}{Theme Friday}{No details yet}
-  \timetableevent{FRI 18}{}{Theme Friday}{No details yet}
-  %% \timetableevent{      }{}{Cinema Trip}{Zombieland: Double Tap}
-  %% \timetableevent{      }{}{Cinema Trip}{Maleficent: Mistress of Evil}
-  \timetableevent{FRI 25}{}{Theme Friday}{No details yet}
-}%
-\timetablemonth{November}{
-  \timetableevent{FRI 01}{18:00-23:00 Dyson Library}{}{Halloween Party}
-  \timetableevent{TBC ??}{}{}{Literary Lucky Dip}
-  \timetableevent{TBC ??}{}{}{Bar Night}
-  \timetableevent{TBC ??}{}{}{EGM}  
-}%
-\timetablemonth{December}{
-     \timetableevent{FRI 13}{}{Cinema Trip}{Jumanji: The Next Level}
+\renewcommand{\arraystretch}{1.3}
+
+\newcommand{\calendarformat}{%
+  l | p{0.16\textwidth} | l |
+  *{3}{p{0.16\textwidth} |}
+  p{0.08\textwidth}
 }
-\end{timetable}
+\newcommand{\calendarhead}{SUN & MON & TUE & WED & THU & FRI & SAT}
+\newcommand{\calendarweek}[1]{\tabularnewline #1}
 
-\end{landscape}
+\newcounter{calendardaycount}
+\newcommand{\calendarday}[2][]{%
+  \stepcounter{calendardaycount}
+  \if#1\empty\else\setcounter{calendardaycount}{#1}\fi
+  \texttt{\arabic{calendardaycount}}
+  \par#2
+}
+\newcommand{\calendarevent}[3]{%
+  \raggedright
+  \textbf{#2}
+  \def\tmp{#3}\ifx\tmp\empty \else \par\textit{#3} \fi
+  \def\tmp{#1}\ifx\tmp\empty \else \par#1\fi
+}
 
+\newenvironment{calendar}[2]{%
+  \begingroup \small
+  % #1 - month name
+  % #2 - table row format  
+  \begin{center}
+    \subhead{\uppercase{#1}}
+    \hrule
+    \edef\tmp{\noexpand\begin{tabular}{\calendarformat}}
+    \tmp
+    \calendarhead
+}{
+      \end{tabular}
+  \end{center}
+  \endgroup
+}
 
+\thispagestyle{empty}
+%\begin{landscape}
+\begin{calendar}{October}
+  \calendarhead
+  \calendarweek{
+    \calendarday[29]{}
+    &\calendarday{\calendarevent{ICSF Library}{Literary Lucky Dip}{}}
+    &\calendarday[1]{}
+    &\calendarday{\calendarevent{12:00-20:00 ICSF Library}{Wanna-Go Wednesday}{}}
+    &\calendarday{\calendarevent{18:00-24:30 Blackett 1004}{Meet and Greet}{}}
+    &\calendarday{\calendarevent{}{Themed Friday}{Blockbuster Night}}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{Themed Friday}{Infinity War / Endgame}}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{EGM\footnotemark}{}}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{Cinema Trip}{Zombieland: Double Tap}}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{Bar Night}{}}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{Book Crawl}{}}
+  }
+\end{calendar}
+
+\begin{calendar}{November}
+  \calendarhead
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday[1]{\calendarevent{18:00-23:00 Dyson Library}{Halloween Party}{}}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+  }
+  \calendarweek{
+    \calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{}
+    &\calendarday{\calendarevent{}{Themed Friday}{Doctor Who}}
+    &\calendarday{}
+  }
+\end{calendar}
+
+\vspace{\fill}
+
+\begin{center}
+  \begin{minipage}{0.65\textwidth}
+    \itshape
+  Regular lunchtime showings (every weekday!) continue throughout
+  term-time. Unofficial events not listed.
+
+  More to be announced as we go! Subscribe to our mailing lists to
+  receive the latest updates.
+\end{minipage}
+\end{center}
+
+\vspace{\fill}

@@ -1,0 +1,27 @@
+\begin{landscape}
+\thispagestyle{empty} % suppress page number
+\setlength{\columnsep}{2em}
+\begin{multicols*}{3}
+\begin{timetablemonth}{WWW DD}{October}
+  \timetableevent{WED 02}{12:00-20:00 ICSF Library}{Wanna Go Wednesday}{}
+  \timetableevent{WED 03}{continues through the week}{Literary Lucky Dip}{}
+  \timetableevent{THU 03}{18:00-24:30 Blackett 1004}{Meet and Greet}{}
+  \timetableevent{FRI 04}{}{Theme Friday}{Blockbuster Night}
+  \timetableevent{FRI 11}{}{Theme Friday}{Infinity War / Endgame}
+  \timetableevent{FRI 18}{}{Cinema Trip}{Zombieland: Double Tap}
+  \timetableevent{THU 24}{}{Bar Night}{}
+  \timetableevent{SAT 26}{}{Book Crawl}{}
+\end{timetablemonth}\columnbreak
+%
+\begin{timetablemonth}{WWW DD}{November}
+  \timetableevent{FRI 01}{18:00-23:00 Dyson Library}{Halloween Party}{}
+  \timetableevent{FRI 22}{}{Theme Friday}{Doctor Who}
+\end{timetablemonth}
+%
+%% \begin{timetablemonth}{WWW DD}{December}
+%%      \timetableevent{FRI 13}{}{Cinema Trip}{Jumanji: The Next Level}
+%% \end{timetablemonth}
+\end{multicols*}
+\end{landscape}
+
+
