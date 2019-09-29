@@ -95,12 +95,51 @@
 
 
 %% TIMETABLE
-\RequirePackage{lscape} % render individual pages in landscape
 
 %% TIMETABLE - CALENDAR
-\RequirePackage{array}
+\renewcommand{\arraystretch}{1.3}
+
+\newcommand{\calendarformat}{%
+  l | p{0.16\textwidth} | l |
+  *{3}{p{0.16\textwidth} |}
+  p{0.08\textwidth}
+}
+\newcommand{\calendarhead}{SUN & MON & TUE & WED & THU & FRI & SAT}
+\newcommand{\calendarweek}[1]{\tabularnewline #1}
+
+\newcounter{calendardaycount}
+\newcommand{\calendarday}[2][]{%
+  \stepcounter{calendardaycount}
+  \if#1\empty\else\setcounter{calendardaycount}{#1}\fi
+  \texttt{\arabic{calendardaycount}}
+  \par#2
+}
+\newcommand{\calendarevent}[3]{%
+  \raggedright
+  \textbf{#2}
+  \def\tmp{#3}\ifx\tmp\empty \else \par\textit{#3} \fi
+  \def\tmp{#1}\ifx\tmp\empty \else \par#1\fi
+}
+
+\newenvironment{calendar}[2]{%
+  \begingroup \small
+  % #1 - month name
+  % #2 - table row format  
+  \begin{center}
+    \subhead{\uppercase{#1}}
+    \hrule
+    \edef\tmp{\noexpand\begin{tabular}{\calendarformat}}
+    \tmp
+    \calendarhead
+}{
+      \end{tabular}
+  \end{center}
+  \endgroup
+}
+
 
 %% TIMETABLE - COMPACT LIST
+\RequirePackage{lscape} % render individual pages in landscape
 \newenvironment{timetable}{}{}
 
 \newlength{\timetablemonth@leftmargin}
