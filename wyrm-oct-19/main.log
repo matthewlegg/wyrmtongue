@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  29 SEP 2019 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  30 SEP 2019 03:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,8 +731,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/profile
-/editor.png (PNG copy)>] (./txt/chair.tex) <img/profile/chair.png, id=19, 905.3
-825pt x 1810.765pt>
+/editor.png (PNG copy)>] (./txt/chair.tex
+LaTeX Font Info:    Try loading font information for TS1+qcs on input line 8.
+ (/usr/local/share/texmf-dist/tex/latex/tex-gyre/ts1qcs.fd
+File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
+)) <img/profile/chair.png, id=23, 905.3825pt x 1810.765pt>
 File: img/profile/chair.png Graphic file (type png)
 
 <use img/profile/chair.png>
@@ -741,7 +744,7 @@ Package pdftex.def Info: img/profile/chair.png used on input line 16.
  [2
 
  <./img/profile/chair.png>]
-<img/profile/librarian.png, id=23, 600.2425pt x 1200.485pt>
+<img/profile/librarian.png, id=28, 600.2425pt x 1200.485pt>
 File: img/profile/librarian.png Graphic file (type png)
 
 <use img/profile/librarian.png>
@@ -752,7 +755,7 @@ Package pdftex.def Info: img/profile/librarian.png used on input line 22.
  <./img/profile/librarian.png>] (./pages/book-recs.tex) [4
 
 ]
-<img/profile/events.png, id=32, 148.3944pt x 296.5479pt>
+<img/profile/events.png, id=36, 148.3944pt x 296.5479pt>
 File: img/profile/events.png Graphic file (type png)
 
 <use img/profile/events.png>
@@ -764,29 +767,24 @@ Package pdftex.def Info: img/profile/events.png used on input line 30.
 (./pages/timetable.tex) [6
 
 ]
-<img/profile/picocon.png, id=42, 77.088pt x 154.176pt>
+<img/profile/picocon.png, id=45, 77.088pt x 154.176pt>
 File: img/profile/picocon.png Graphic file (type png)
 
 <use img/profile/picocon.png>
 Package pdftex.def Info: img/profile/picocon.png used on input line 41.
 (pdftex.def)             Requested size: 120.92421pt x 241.85214pt.
- (./txt/picocon.tex
-LaTeX Font Info:    Try loading font information for TS1+qcs on input line 2.
-
-(/usr/local/share/texmf-dist/tex/latex/tex-gyre/ts1qcs.fd
-File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
-)) [7
+ (./txt/picocon.tex) [7
 
  <./img/profile/picocon.png>] (./pages/radio.tex) (./pages/getting-involved.tex
 
-<img/icons/facebook.png, id=48, 822.272pt x 822.272pt>
+<img/icons/facebook.png, id=49, 822.272pt x 822.272pt>
 File: img/icons/facebook.png Graphic file (type png)
 
 <use img/icons/facebook.png>
 Package pdftex.def Info: img/icons/facebook.png used on input line 29.
 (pdftex.def)             Requested size: 24.0pt x 23.98956pt.
 
-<img/icons/twitter.png, id=49, 822.272pt x 822.272pt>
+<img/icons/twitter.png, id=50, 822.272pt x 822.272pt>
 File: img/icons/twitter.png Graphic file (type png)
 
 <use img/icons/twitter.png>
@@ -797,7 +795,7 @@ File: img/icons/twitter.png Graphic file (type png)
 Package pdftex.def Info: img/icons/twitter.png used on input line 37.
 (pdftex.def)             Requested size: 24.0pt x 23.98956pt.
 
-<img/icons/instagram.png, id=50, 822.272pt x 822.272pt>
+<img/icons/instagram.png, id=51, 822.272pt x 822.272pt>
 File: img/icons/instagram.png Graphic file (type png)
 
 <use img/icons/instagram.png>
@@ -821,7 +819,7 @@ g>] (./pages/crossword.tex
 \n=\count126
 \n=\count127
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 []\OT1/qcs/m/n/10 Anastrophic green men-
  []
 
@@ -841,12 +839,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \n=\count141
 \n=\count142
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []\OT1/qcs/m/n/10 Douglas, au-thor of \OT1/qcs/m/it/10 The
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 55--56
+Underfull \hbox (badness 5288) in paragraph at lines 54--55
 \OT1/qcs/m/it/10 Hitch-hiker's Guide to the
  []
 
@@ -857,7 +855,7 @@ Underfull \hbox (badness 5288) in paragraph at lines 55--56
 \n=\count147
 \n=\count148
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []\OT1/qcs/m/n/10 Horseman of the Apoc-a-
  []
 
@@ -876,37 +874,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 ) [9
 
 ] (./pages/back-matter.tex
-<img/info/map.png, id=61, 270.0489pt x 272.4579pt>
+<img/info/map.png, id=62, 270.0489pt x 272.4579pt>
 File: img/info/map.png Graphic file (type png)
  <use img/info/map.png>
-Package pdftex.def Info: img/info/map.png used on input line 7.
-(pdftex.def)             Requested size: 338.58632pt x 341.62749pt.
+Package pdftex.def Info: img/info/map.png used on input line 8.
+(pdftex.def)             Requested size: 251.52443pt x 253.76569pt.
 
-<img/info/qr-small.png, id=62, 45.771pt x 45.771pt>
+<img/info/qr-small.png, id=63, 45.771pt x 45.771pt>
 File: img/info/qr-small.png Graphic file (type png)
 
 <use img/info/qr-small.png>
-Package pdftex.def Info: img/info/qr-small.png used on input line 12.
-(pdftex.def)             Requested size: 94.81448pt x 94.80374pt.
+Package pdftex.def Info: img/info/qr-small.png used on input line 13.
+(pdftex.def)             Requested size: 91.91399pt x 91.90358pt.
 
-<img/logo/logo-text.png, id=63, 247.4043pt x 106.9596pt>
+<img/logo/logo-text.png, id=64, 247.4043pt x 101.9007pt>
 File: img/logo/logo-text.png Graphic file (type png)
 
 <use img/logo/logo-text.png>
-Package pdftex.def Info: img/logo/logo-text.png used on input line 18.
-(pdftex.def)             Requested size: 135.43245pt x 58.55376pt.
+Package pdftex.def Info: img/logo/logo-text.png used on input line 19.
+(pdftex.def)             Requested size: 135.43452pt x 55.78432pt.
 ) [10
 
  <./img/info/map.png> <./img/info/qr-small.png> <./img/logo/logo-text.png>] (./
 main.aux) ) 
 Here is how much of TeX's memory you used:
- 3962 strings out of 493093
- 56602 string characters out of 6138120
- 198335 words of memory out of 5000000
- 7289 multiletter control sequences out of 15000+600000
- 70648 words of font info for 83 fonts, out of 8000000 for 9000
+ 3969 strings out of 493093
+ 56685 string characters out of 6138120
+ 198356 words of memory out of 5000000
+ 7294 multiletter control sequences out of 15000+600000
+ 72490 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,13n,30p,331b,303s stack positions out of 5000i,2500n,10000p,300000b,80000s
+ 44i,13n,30p,331b,318s stack positions out of 5000i,2500n,10000p,300000b,80000s
 {/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/us
 r/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/local/share/te
 xmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/local/share/texmf-dist/font
@@ -917,11 +915,12 @@ s8.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 al/share/texmf-dist/fonts/type1/public/tex-gyre/qcsb.pfb></usr/local/share/texm
 f-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/local/share/texmf-dist/fonts/
 type1/public/tex-gyre/qcsri.pfb></usr/local/share/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb>
-Output written on main.pdf (11 pages, 4531209 bytes).
+latino/uplb8a.pfb></usr/local/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
+pfb>
+Output written on main.pdf (11 pages, 4551302 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

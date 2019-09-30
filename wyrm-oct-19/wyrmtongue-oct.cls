@@ -22,12 +22,16 @@
 %% TOMBSTONE % (the little sci-fi symbol marking the end of an article)
 \newcommand{\tombstone}{$\mathbf{\Psi\!\Phi}$}
 
+%% FOOTNOTE SYMBOLS
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
 %% HEADER FONT
 \newcommand{\altfont}[1]{\textbf{\fontfamily{ppl}\selectfont #1}}
 
 %% HEADERS
 \newcommand{\pagehead}[1]{%
-  \parbox[t][\baselineskip]{\textwidth}{\centering \Huge \altfont{#1}}\par
+  \parbox[t][\baselineskip]{\textwidth}{\centering \Huge \altfont{#1}}
+  \par\vspace{1em}
   \hrule
   \vspace{0.5em}
 }
@@ -48,7 +52,7 @@
     \begin{flushright}
       {\Large \altfont{#2}}%
       \setlength{\parskip}{0.1em}\par% tighter space between name & title
-      #3
+      \altfont{\mdseries #3}
     \end{flushright}
   \end{minipage}%
 }
