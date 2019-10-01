@@ -3,21 +3,24 @@
 % was 3AM on the day before printing and I was eyeballing all the
 % dimensions.
 \vspace*{\fill}
-\hspace{\fill}
-% directions
-\includegraphics[width=0.52\textwidth]{img/info/map.png}
-\par\vspace{1em}
+
+\hspace{\fill}%
+\begin{minipage}{\textwidth}
+\includegraphics[width=\textwidth]{img/info/map.png}
+
+\vspace{2em}
+
 % QR code
-\hspace*{\fill}
-\begin{minipage}[h]{0.19\textwidth}
+\begin{minipage}[h]{7.8em}
 \includegraphics[height=\textwidth]{img/info/qr-small.png}
 \end{minipage}%
 \hspace{1.5em}%
 % logotext
-\begin{minipage}[h]{0.28\textwidth}
+\begin{minipage}[h]{11.4em}
 \raggedright
 \includegraphics[width=\textwidth]{img/logo/logo-text.png}
 Published October~2019
 \texttt{icsf.org.uk}
-\end{minipage}\hspace{0.5em}
-%\end{center}
+\end{minipage}
+\hspace*{\fill}%
+\end{minipage}

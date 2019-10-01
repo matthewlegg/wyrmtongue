@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  30 SEP 2019 03:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  30 SEP 2019 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,6 +219,23 @@ File: lettrine.sty 2015/02/16 v1.8 (Daniel Flipo)
 
 Loading lettrine.cfg
 (/usr/local/share/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/local/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 \c@calendardaycount=\count96
 
 (/usr/local/share/texmf-dist/tex/latex/graphics/lscape.sty
@@ -712,12 +729,12 @@ LaTeX Font Info:    Try loading font information for OT1+ppl on input line 11.
 (/usr/local/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-<img/profile/editor.png, id=11, 115.632pt x 231.264pt>
+<img/profile/editor.png, id=11, 80.9424pt x 162.1257pt>
 File: img/profile/editor.png Graphic file (type png)
 
 <use img/profile/editor.png>
 Package pdftex.def Info: img/profile/editor.png used on input line 11.
-(pdftex.def)             Requested size: 120.92421pt x 241.86041pt.
+(pdftex.def)             Requested size: 120.92421pt x 242.22069pt.
  (./txt/editor.tex)
 LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
@@ -731,11 +748,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/profile
-/editor.png (PNG copy)>] (./txt/chair.tex
+/editor.png>]
+(./txt/chair.tex
 LaTeX Font Info:    Try loading font information for TS1+qcs on input line 8.
  (/usr/local/share/texmf-dist/tex/latex/tex-gyre/ts1qcs.fd
 File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
-)) <img/profile/chair.png, id=23, 905.3825pt x 1810.765pt>
+))
+<img/profile/chair.png, id=24, 905.3825pt x 1810.765pt>
 File: img/profile/chair.png Graphic file (type png)
 
 <use img/profile/chair.png>
@@ -744,7 +763,7 @@ Package pdftex.def Info: img/profile/chair.png used on input line 16.
  [2
 
  <./img/profile/chair.png>]
-<img/profile/librarian.png, id=28, 600.2425pt x 1200.485pt>
+<img/profile/librarian.png, id=29, 600.2425pt x 1200.485pt>
 File: img/profile/librarian.png Graphic file (type png)
 
 <use img/profile/librarian.png>
@@ -755,7 +774,7 @@ Package pdftex.def Info: img/profile/librarian.png used on input line 22.
  <./img/profile/librarian.png>] (./pages/book-recs.tex) [4
 
 ]
-<img/profile/events.png, id=36, 148.3944pt x 296.5479pt>
+<img/profile/events.png, id=37, 148.3944pt x 296.5479pt>
 File: img/profile/events.png Graphic file (type png)
 
 <use img/profile/events.png>
@@ -767,24 +786,24 @@ Package pdftex.def Info: img/profile/events.png used on input line 30.
 (./pages/timetable.tex) [6
 
 ]
-<img/profile/picocon.png, id=45, 77.088pt x 154.176pt>
+<img/profile/picocon.png, id=46, 77.088pt x 154.176pt>
 File: img/profile/picocon.png Graphic file (type png)
 
 <use img/profile/picocon.png>
-Package pdftex.def Info: img/profile/picocon.png used on input line 41.
+Package pdftex.def Info: img/profile/picocon.png used on input line 42.
 (pdftex.def)             Requested size: 120.92421pt x 241.85214pt.
  (./txt/picocon.tex) [7
 
  <./img/profile/picocon.png>] (./pages/radio.tex) (./pages/getting-involved.tex
 
-<img/icons/facebook.png, id=49, 822.272pt x 822.272pt>
+<img/icons/facebook.png, id=50, 822.272pt x 822.272pt>
 File: img/icons/facebook.png Graphic file (type png)
 
 <use img/icons/facebook.png>
 Package pdftex.def Info: img/icons/facebook.png used on input line 29.
 (pdftex.def)             Requested size: 24.0pt x 23.98956pt.
 
-<img/icons/twitter.png, id=50, 822.272pt x 822.272pt>
+<img/icons/twitter.png, id=51, 822.272pt x 822.272pt>
 File: img/icons/twitter.png Graphic file (type png)
 
 <use img/icons/twitter.png>
@@ -795,7 +814,7 @@ File: img/icons/twitter.png Graphic file (type png)
 Package pdftex.def Info: img/icons/twitter.png used on input line 37.
 (pdftex.def)             Requested size: 24.0pt x 23.98956pt.
 
-<img/icons/instagram.png, id=51, 822.272pt x 822.272pt>
+<img/icons/instagram.png, id=52, 822.272pt x 822.272pt>
 File: img/icons/instagram.png Graphic file (type png)
 
 <use img/icons/instagram.png>
@@ -874,52 +893,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 ) [9
 
 ] (./pages/back-matter.tex
-<img/info/map.png, id=62, 270.0489pt x 272.4579pt>
+<img/info/map.png, id=63, 270.0489pt x 272.4579pt>
 File: img/info/map.png Graphic file (type png)
  <use img/info/map.png>
-Package pdftex.def Info: img/info/map.png used on input line 8.
-(pdftex.def)             Requested size: 251.52443pt x 253.76569pt.
+Package pdftex.def Info: img/info/map.png used on input line 9.
+(pdftex.def)             Requested size: 483.69687pt x 488.04164pt.
 
-<img/info/qr-small.png, id=63, 45.771pt x 45.771pt>
+<img/info/qr-small.png, id=64, 45.771pt x 45.771pt>
 File: img/info/qr-small.png Graphic file (type png)
 
 <use img/info/qr-small.png>
-Package pdftex.def Info: img/info/qr-small.png used on input line 13.
-(pdftex.def)             Requested size: 91.91399pt x 91.90358pt.
+Package pdftex.def Info: img/info/qr-small.png used on input line 15.
+(pdftex.def)             Requested size: 93.61043pt x 93.60004pt.
 
-<img/logo/logo-text.png, id=64, 247.4043pt x 101.9007pt>
+<img/logo/logo-text.png, id=65, 247.4043pt x 101.9007pt>
 File: img/logo/logo-text.png Graphic file (type png)
 
 <use img/logo/logo-text.png>
-Package pdftex.def Info: img/logo/logo-text.png used on input line 19.
-(pdftex.def)             Requested size: 135.43452pt x 55.78432pt.
-) [10
+Package pdftex.def Info: img/logo/logo-text.png used on input line 21.
+(pdftex.def)             Requested size: 136.79993pt x 56.34718pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--56
 
- <./img/info/map.png> <./img/info/qr-small.png> <./img/logo/logo-text.png>] (./
-main.aux) ) 
+ []
+
+[10
+
+ <./img/info/map.png> <./img/info/qr-small.png> <./img/logo/logo-text.png>]
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3969 strings out of 493093
- 56685 string characters out of 6138120
- 198356 words of memory out of 5000000
- 7294 multiletter control sequences out of 15000+600000
+ 4434 strings out of 493093
+ 61959 string characters out of 6138120
+ 208611 words of memory out of 5000000
+ 7753 multiletter control sequences out of 15000+600000
  72490 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,13n,30p,331b,318s stack positions out of 5000i,2500n,10000p,300000b,80000s
-{/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/us
-r/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/local/share/te
-xmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/local/share/texmf-dist/font
-s/enc/dvips/base/8r.enc}</usr/local/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-s8.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
-/usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loc
-al/share/texmf-dist/fonts/type1/public/tex-gyre/qcsb.pfb></usr/local/share/texm
-f-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/local/share/texmf-dist/fonts/
-type1/public/tex-gyre/qcsri.pfb></usr/local/share/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb></usr/local/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
-pfb>
-Output written on main.pdf (11 pages, 4551302 bytes).
+ 44i,13n,37p,331b,318s stack positions out of 5000i,2500n,10000p,300000b,80000s
+{/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{
+/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/local/share
+/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/local/share/texmf-dist/f
+onts/enc/dvips/base/8r.enc}</usr/local/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss8.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
+local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsb.pfb></usr/local/share/t
+exmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/local/share/texmf-dist/fon
+ts/type1/public/tex-gyre/qcsri.pfb></usr/local/share/texmf-dist/fonts/type1/urw
+/palatino/uplb8a.pfb></usr/local/share/texmf-dist/fonts/type1/urw/palatino/uplr
+8a.pfb>
+Output written on main.pdf (11 pages, 3333879 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)

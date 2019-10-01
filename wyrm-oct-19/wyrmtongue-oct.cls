@@ -51,7 +51,7 @@
     \vspace{-\parskip}\includegraphics[width=\textwidth]{img/profile/#1}
     \begin{flushright}
       {\Large \altfont{#2}}%
-      \setlength{\parskip}{0.1em}\par% tighter space between name & title
+      \setlength{\parskip}{0.3em}\par% tighter space between name & title
       \altfont{\mdseries #3}
     \end{flushright}
   \end{minipage}%
@@ -101,15 +101,16 @@
 %% TIMETABLE
 
 %% TIMETABLE - CALENDAR
+\RequirePackage{xcolor}
 \renewcommand{\arraystretch}{1.3}
 
 \newcommand{\calendarformat}{%
-  l | p{0.16\textwidth} | l |
-  *{3}{p{0.16\textwidth} |}
-  p{0.08\textwidth}
+  l | l | *{4}{p{0.16\textwidth} |}
+  p{0.07\textwidth}
 }
 \newcommand{\calendarhead}{SUN & MON & TUE & WED & THU & FRI & SAT}
-\newcommand{\calendarweek}[1]{\tabularnewline #1}
+
+%\newcommand{\calendarweek}[1]{#1\\}
 
 \newcounter{calendardaycount}
 \newcommand{\calendarday}[2][]{%
@@ -118,20 +119,27 @@
   \texttt{\arabic{calendardaycount}}
   \par#2
 }
+\newcommand{\calendardayalt}[2][]{%
+  \stepcounter{calendardaycount}
+  \if#1\empty\else\setcounter{calendardaycount}{#1}\fi
+  \texttt{\color{gray!50} \arabic{calendardaycount}}
+  \par#2
+}
+
 \newcommand{\calendarevent}[3]{%
   \raggedright
   \textbf{#2}
   \def\tmp{#3}\ifx\tmp\empty \else \par\textit{#3} \fi
-  \def\tmp{#1}\ifx\tmp\empty \else \par#1\fi
+  \def\tmp{#1}\ifx\tmp\empty \else \par{\footnotesize #1}\fi
 }
 
 \newenvironment{calendar}[2]{%
   \begingroup \small
   % #1 - month name
-  % #2 - table row format  
+  % #2 - table row format
   \begin{center}
+    \vspace{-0.5em}
     \subhead{\uppercase{#1}}
-    \hrule
     \edef\tmp{\noexpand\begin{tabular}{\calendarformat}}
     \tmp
     \calendarhead
@@ -178,10 +186,10 @@
   % #2 - url/username
   % #3 - tagline
   \vspace{0.5em}
-  \parbox{0.1\textwidth}{
-    \raggedleft \includegraphics[width=2em]{img/icons/#1}\hspace{1em}
+  \parbox{0.12\textwidth}{
+    \raggedleft \includegraphics[width=2em]{img/icons/#1}\hspace{1.5em}
   }%
-  \parbox{0.9\textwidth}{
+  \parbox{0.88\textwidth}{
     {\texttt{#2}\newline\textit{#3}}
   }\par
 }
