@@ -41,6 +41,7 @@
 }
 
 %% ARTICLE
+% the pieces written by committee members.
 
 \RequirePackage{ifoddpage} % conditional layout on odd/even pages
 \RequirePackage{lettrine}  % drop-caps
@@ -99,6 +100,12 @@
 
 
 %% TIMETABLE
+% this file provides two different sets of definitions for the events
+% timetable, which are maybe misleadingly named `calendar*` and
+% `timetable*`. They correspond roughly to the formats used in the
+% 2019 and 2018 Octber issues, but it might be necessary to put
+% together something ad-hoc depending on what looks nice, and what
+% information the Chair of Vice has provided.
 
 %% TIMETABLE - CALENDAR
 \RequirePackage{xcolor}
@@ -150,7 +157,7 @@
 }
 
 
-%% TIMETABLE - COMPACT LIST
+%% TIMETABLE - LIST
 \RequirePackage{lscape} % render individual pages in landscape
 \newenvironment{timetable}{}{}
 
@@ -196,7 +203,7 @@
 
 %% CROSSWORD
 % we're using cwpuzzle to typeset the grid, but rolling our own macros
-% for the clues: the reason is that we never expect to typeset 
+% for the clues.
 
 \RequirePackage[small,unboxed]{cwpuzzle}
 \RequirePackage{enumitem,multicol}
