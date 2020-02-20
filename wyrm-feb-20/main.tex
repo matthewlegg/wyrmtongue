@@ -1,0 +1,82 @@
+% PICOCON 37 information booklet, 2020.
+\documentclass[12pt]{article}
+\usepackage[a4paper,bottom=2.5cm,left=2cm,right=2cm,top=2cm]{geometry}
+
+%paragraph spacing
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+\makeatletter
+\newcommand{\@minipagerestore}{\setlength{\parskip}{1em}}
+\makeatother
+
+%hyphenation, date format, font encoding
+\usepackage[british]{babel}
+\usepackage[condensed]{roboto}
+\usepackage{tgtermes}
+\usepackage[T1]{fontenc}
+
+% UTF input
+\usepackage[utf8]{inputenc}
+
+% dagger footnotes & re-start count every page
+\usepackage{perpage}
+\MakePerPage[2]{footnote}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% graphics imports
+\usepackage{graphicx}
+
+\usepackage{caption}
+
+% timetable formatting
+\usepackage{array}
+\usepackage{multirow}
+
+% end mark
+\newcommand{\tombstone}[1]{%
+  \includegraphics[height=\fontcharht\font`\B,clip]{#1}%
+}
+
+\newcommand{\altf}[1]{\textsf{\textbf{\uppercase{#1}}}}
+
+% page header
+\newcommand{\head}[1]{%
+  \begin{center}
+    {\Huge\altf{\textbullet{} #1 \textbullet{}}}
+  \end{center}%
+}
+\newcommand{\subhead}[1]{%
+  {\Large\altf{#1}\par}%
+}
+
+
+
+\begin{document}
+%
+\input{cover}
+\clearpage
+%
+\head{The King's Speech}
+\clearpage
+%
+\head{The Sofa's Ramblings}
+\clearpage
+%
+\head{A Word from the Beanbag}
+\clearpage
+%
+\head{Schedule}
+\input{pages/schedule}
+\clearpage
+%
+\head{Guests of Honour}
+\input{pages/guests}
+\clearpage
+%
+\head{Tabletop\&Gaming}
+\vfill
+\head{Vendors}
+\input{pages/vendors}
+\vfill
+\clearpage
+\end{document}

@@ -1,0 +1,15 @@
+\makeatletter
+\newcommand{\goh}[1]{%
+  \hspace{1em}
+  \begin{minipage}{0.3\textwidth}
+    \includegraphics[width=\textwidth]{img/guests/#1.png}
+  \end{minipage}\hfill
+  \begin{minipage}{0.62\textwidth}
+    \def\gohname##1##2{\altf{\Large ##1 }##2}
+    \expandafter\gohname\@@input txt/guests/#1
+  \end{minipage}%
+}
+\makeatother
+\vfill\goh{kemp}
+\vfill\goh{kaveney}
+\vfill\goh{muir}\vfill
