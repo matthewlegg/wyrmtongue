@@ -2,17 +2,28 @@
   % #1 - title
   % #2 - location
   % #3 - text path
-  \subhead{#1} \vspace{-.8\baselineskip} \texttt{@ #2}\par
-\input{txt/vendors/#3}
+  \begin{minipage}{4em}
+    \includegraphics[width=\textwidth]{img/vendors/#3}
+  \end{minipage}\hspace{.7em}
+  \begin{minipage}{0.5\textwidth}
+    {\Large \altf{#1.}\par}\vspace{-1em} \texttt{@#2}
+  \end{minipage}\par
+  %\subhead{#1} \vspace{-.8\baselineskip} \texttt{@ #2}\par
+  \input{txt/vendors/#3}
+  \vskip 2em
 }
+\newcommand{\vendoralt}[3]{
+  \subhead{#1}\vspace{-1em} \texttt{@#2}\par
+  \input{txt/vendors/#3}
+  \vskip 2em
+}
+
+\vspace{8\baselineskip}
+
 \vendor{Tabletop \& Gaming}{Blackett 1004}{gaming}
-
 \vendor{Sci-Fi Library}{Beit West Basement}{library}
-
+\clearpage
 \vendor{Best in Galaxy}{Blackett Foyer}{restuccia}
-
 \vendor{Paul Couper}{Blackett Foyer}{couper}
-
 \vendor{Clockwork Firebird Designs}{Blackett Foyer}{firebird}
-
 \vendor{Elsewhen Press}{Blackett Foyer}{elsewhen}
