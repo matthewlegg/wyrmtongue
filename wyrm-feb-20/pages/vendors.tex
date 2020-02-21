@@ -1,0 +1,23 @@
+\newcommand{\vendor}[3]{
+  % #1 - title
+  % #2 - location
+  % #3 - text path
+  \begin{flushright}
+  \begin{minipage}{0.5\textwidth}\raggedleft
+    {\Large \altf{#1.}\par}\vspace{-1em} \texttt{@#2}
+  \end{minipage}\hspace{.7em}
+  \begin{minipage}{4em}
+    \includegraphics[width=\textwidth]{img/vendors/#3}
+  \end{minipage}
+  \end{flushright}
+  %\subhead{#1} \vspace{-.8\baselineskip} \texttt{@ #2}\par
+  \input{txt/vendors/#3}
+  \vskip 2em
+}
+Discover artwork, trinkets, old books, new obsessions:
+\vfill
+\vendor{Best in Galaxy}{Blackett Foyer}{restuccia}
+\vendor{Paul Couper}{Blackett Foyer}{couper}
+\vendor{Clockwork Firebird Designs}{Blackett Foyer}{firebird}
+\vendor{Elsewhen Press}{Blackett Foyer}{elsewhen}
+\vfill
