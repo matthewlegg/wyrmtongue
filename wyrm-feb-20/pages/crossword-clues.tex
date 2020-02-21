@@ -1,0 +1,68 @@
+\newcommand{\blnk}{\underline{\hspace{2em}}}
+\newcommand{\cwclue}[4]{
+% #1 - number
+% #2 - answer
+% #3 - question
+% #4 - length
+\item[\texttt{#1}] {#3 \texttt{(#4)}}%
+}
+\newenvironment{cwcluelist}[1]{%
+\begin{center}\large\altf{#1}\end{center}\vspace{-1em}
+\begin{small}
+\begin{itemize}\itemsep-.3em
+}{
+\end{itemize}
+\end{small}
+}
+%% clues:
+\begin{minipage}[t]{.44\textwidth}
+\begin{cwcluelist}{Across}
+\cwclue{ 1}{THEDOCTOR}{Gender-fluid time traveler}{3, 6}
+\cwclue{ 9}{ECLIPSE}{Astronomical event, time of prophecy}{7}
+\cwclue{10}{OFFICIALS}{Picocon Sofa \& Beanbag}{9}
+\cwclue{12}{AMPHITHEATRE}{Ancient thunderdome}{12}
+\cwclue{16}{LUNG}{Vital organ and supervillain in web serial \textit{Worm}}{4}
+\cwclue{17}{IDOLS}{???}{5}
+\cwclue{20}{GUARDS}{Half the title of a \textit{Discworld} book}{6}
+\cwclue{21}{ENLIST}{To join Starfleet}{6}
+\cwclue{22}{MIMIR}{Wise severed head who gives counsel to Odin}{5}
+\cwclue{25}{SEER}{Oracle}{4}
+\cwclue{26}{NECROMANCERS}{\textit{Gideon the Ninth:} \blnk{} in Space}{12}
+\cwclue{31}{PATROCLUS}{Achilles's boyfriend}{9}
+\cwclue{34}{BISMUTH}{Chemical element \& blacksmith in \textit{Steven Universe}}{7}
+\cwclue{35}{AWARENESS}{Important aspect of LGBTQ+ events}{9}
+\end{cwcluelist}
+%% credit:
+\vspace{1em}
+\begin{center}
+\parbox{8em}{\small
+\textit{Crossword created by Henry Wild \& the Sci-Fi Library.}
+}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}[t]{.48\textwidth}
+\begin{cwcluelist}{Down}
+\cwclue{ 1}{THOR}{Cross-dressing Norse god}{4}
+\cwclue{ 2}{ELF}{Stock fantasy race. Hates \texttt{3 DOWN}}{3}
+\cwclue{ 3}{ORC}{Stock fantasy race. Hates \texttt{2 DOWN}}{3}
+\cwclue{ 4}{TRASH}{e.g. People who deliberately use incorrect pronouns}{5}
+\cwclue{ 5}{RESET}{Time loop}{5}
+\cwclue{ 6}{ALFRED}{Bruce Wayne's surrogate father}{6}
+\cwclue{ 7}{SPRITE}{Tiny fairy \& carbonated drink}{6}
+\cwclue{ 8}{HEX}{Malediction}{3}
+\cwclue{11}{IMAGERY}{Brings a story to life}{7}
+\cwclue{13}{PRISM}{Splits sunlight}{5}
+\cwclue{14}{IRONMAN}{\emph{`I am \blnk{} .'}}{4, 3}
+\cwclue{15}{EDITOR}{Simon Pegg in \textit{Doctor Who} episode \textit{The Long Game}}{6}
+\cwclue{16}{LEGUIN}{Author of \textit{The Left Hand of Darkness}}{6}
+\cwclue{19}{CLASSIC}{???}{7}
+\cwclue{23}{ACCESS}{???}{6}
+\cwclue{24}{COLOUR}{Octarine, superviolet, and the one out of space}{6}
+\cwclue{27}{ALPHA}{The beginning}{5}
+\cwclue{28}{CATRA}{She-Ra's nemesis/love interest}{5}
+\cwclue{39}{USES}{\textit{The Twelve \blnk{} of Dragon's Blood,} by Albus Dumbledore}{4}
+\cwclue{30}{FBI}{Employer of Mulder \& Scully}{3}
+\cwclue{32}{ORE}{Mithril, Tritanium, Unobtanium}{3}
+\cwclue{33}{LIE}{e.g. `Bisexuals don't exist'}{3}
+\end{cwcluelist}
+\end{minipage}

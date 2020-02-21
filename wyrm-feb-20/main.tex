@@ -11,9 +11,12 @@
 
 %hyphenation, date format, font encoding
 \usepackage[british]{babel}
-\usepackage[condensed]{roboto}
-\usepackage{tgtermes}
+\usepackage{roboto}
 \usepackage[T1]{fontenc}
+\usepackage{merriweather}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{lettrine}
 
 % UTF input
 \usepackage[utf8]{inputenc}
@@ -37,19 +40,49 @@
   \includegraphics[height=\fontcharht\font`\B,clip]{#1}%
 }
 
-\newcommand{\altf}[1]{\textsf{\textbf{\uppercase{#1}}}}
+%title font
+\newcommand{\altf}[1]{{\robotocondensed\textbf{\uppercase{#1}}}}
+\newcommand{\decorated}[1]{\altf{\textbullet{} #1 \textbullet{}}}
 
 % page header
 \newcommand{\head}[1]{%
   \begin{center}
-    {\Huge\altf{\textbullet{} #1 \textbullet{}}}
+    {\Huge\decorated{#1}}
   \end{center}%
 }
 \newcommand{\subhead}[1]{%
-  {\Large\altf{#1}\par}%
+  {\Large\altf{#1.}\par}%
 }
 
+\newcommand{\article}[3]{%
+  % #1 - name
+  % #2 - seat
+  % #3 - text source
+  \vspace{2.5em}\hrule
+  \begin{center}
+    \centering
+  \begin{minipage}{0.15\textwidth}
+    \includegraphics[width=\textwidth]{img/furniture/#3}
+  \end{minipage}\hspace{1em}
+  \begin{minipage}{0.3\textwidth}
+    {\Large \altf{#1}\par}\vspace{-0.7\baselineskip} #2
+  \end{minipage}
+  \end{center}
+  \vspace{1em}\hrule\vspace{1.5em}
+  \input{txt/#3}\tombstone{img/tombstone/sci-fi}
+  \par\hfill
+  %% \par\hfill
+  %% \parbox{0.3\textwidth}{
+  %%   {\Large \altf{#1}\par}
+  %%   #2
+  %% }
+}
 
+% puzzles
+\usepackage{logicpuzzle}
+\usepackage[unboxed,small]{cwpuzzle}
+\renewcommand{\PuzzleNumberFont}{\footnotesize\ttfamily}
+\usepackage{multicol}
 
 \begin{document}
 %
@@ -57,12 +90,11 @@
 \clearpage
 %
 \head{The King's Speech}
+\article{Matthew Last}{ICSF Chair}{chair}
 \clearpage
-%
-\head{The Sofa's Ramblings}
-\clearpage
-%
-\head{A Word from the Beanbag}
+
+\head{The Sofa's Ramblings : Why Pride?}
+\article{Harry Black}{Picocon Sofa}{sofa}
 \clearpage
 %
 \head{Schedule}
@@ -73,10 +105,28 @@
 \input{pages/guests}
 \clearpage
 %
-\head{Tabletop\&Gaming}
+\head{What's On}
+\input{pages/whats-on}
+\clearpage
+
+\head{Quest Objectives}
+\input{pages/hunt-info}
+\input{pages/hunt-list}
+\clearpage
+
+\head{Crossword}
+\input{pages/crossword}
+\input{pages/crossword-clues}
+\clearpage
+
+\head{Nonogram}
+\input{pages/nonogram}
 \vfill
-\head{Vendors}
-\input{pages/vendors}
+\input{pages/media}
 \vfill
 \clearpage
+
+\head{Directions}
+\input{pages/map}
+
 \end{document}
