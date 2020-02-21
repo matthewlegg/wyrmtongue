@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,26 +1424,11 @@ available
 ut line 19.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[]\T1/Merriweather-OsF/m/n/10.95 Astronomical event, time of
- []
-
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 24.
 
-Underfull \hbox (badness 1127) in paragraph at lines 24--25
-[]\T1/Merriweather-OsF/m/n/10.95 Vital or-gan and su-pervil-lain in
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 28--29
-[]\T1/Merriweather-OsF/m/n/10.95 Wise severed head who gives
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-[]\T1/Merriweather-OsF/m/n/10.95 Important as-pect of LGBTQ+
+Underfull \hbox (badness 1521) in paragraph at lines 33--34
+[]\T1/Merriweather-OsF/m/n/10.95 An im-port-ant as-pect of LGBTQ+
  []
 
 
@@ -1511,11 +1496,7 @@ LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 7.
 ) [13
 
- <./img/map.png>] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <./img/map.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  19179 strings out of 493093
  379046 string characters out of 6138120
@@ -1524,20 +1505,20 @@ Here is how much of TeX's memory you used:
  67057 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,92p,509b,844s stack positions out of 5000i,2500n,10000p,300000b,80000s
-{/usr/local/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/l
-ocal/share/texmf-dist/fonts/enc/dvips/merriweather/mwth_jnnjab.enc}{/usr/local/
-share/texmf-dist/fonts/enc/dvips/merriweather/mwth_ywgpba.enc}{/usr/local/share
-/texmf-dist/fonts/enc/dvips/roboto/rbto_idpkzy.enc}{/usr/local/share/texmf-dist
-/fonts/enc/dvips/roboto/rbto_bergpl.enc}</usr/local/share/texmf-dist/fonts/type
-1/sorkin/merriweather/Merriweather-Bold.pfb></usr/local/share/texmf-dist/fonts/
-type1/sorkin/merriweather/Merriweather-Italic.pfb></usr/local/share/texmf-dist/
-fonts/type1/sorkin/merriweather/Merriweather-Regular.pfb></usr/local/share/texm
-f-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb></usr/local/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/texmf-dist/
-fonts/type1/public/cm-super/sftt1000.pfb></usr/local/share/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1095.pfb></usr/local/share/texmf-dist/fonts/type1/public
-/cm-super/sftt1200.pfb>
-Output written on main.pdf (13 pages, 3312258 bytes).
+{/usr/local/share/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-t1.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/merriweathe
+r/mwth_jnnjab.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/merriweather/mwt
+h_ywgpba.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/roboto/rbto_idpkzy.en
+c}{/usr/local/share/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}</usr/loc
+al/share/texmf-dist/fonts/type1/sorkin/merriweather/Merriweather-Bold.pfb></usr
+/local/share/texmf-dist/fonts/type1/sorkin/merriweather/Merriweather-Italic.pfb
+></usr/local/share/texmf-dist/fonts/type1/sorkin/merriweather/Merriweather-Regu
+lar.pfb></usr/local/share/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-
+Bold.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/lo
+cal/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/share
+/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (13 pages, 3303663 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
