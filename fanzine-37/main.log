@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,7 +1040,7 @@ File: img/raudonyte.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/raudonyte.pdf used on input line 29.
 (pdftex.def)             Requested size: 483.69687pt x 683.68352pt.
 
-[17] [18 <./img/raudonyte.pdf>] (./txt/maharaj.tex
+[17] [18 <./img/raudonyte.pdf, page is rotated 180 degrees>] (./txt/maharaj.tex
 
 ! Package inputenc Error: Unicode char \u8:﻿ not set up for use with LaTeX.
 
@@ -1076,7 +1076,7 @@ File: ts1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Here is how much of TeX's memory you used:
  3493 strings out of 493093
  48296 string characters out of 6138120
- 108101 words of memory out of 5000000
+ 108125 words of memory out of 5000000
  6849 multiletter control sequences out of 15000+600000
  64279 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1092,10 +1092,10 @@ mf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/local/share/texmf-dist/fonts/ty
 pe1/public/tex-gyre/qcsb.pfb></usr/local/share/texmf-dist/fonts/type1/public/te
 x-gyre/qcsbi.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsr.
 pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb>
-Output written on main.pdf (30 pages, 7019643 bytes).
+Output written on main.pdf (30 pages, 7019629 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 154 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

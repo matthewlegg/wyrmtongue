@@ -83,6 +83,8 @@
   \addcontentsline{toc}{section}{#1 {\normalfont \textemdash{} artwork by #2}}
   \includegraphics[width=\textwidth]{#3}
   \vfill
-  #1 by #2
+  \begin{center}
+    \textbf{#1} \textemdash{} #2
+  \end{center}
   \clearpage
 }
