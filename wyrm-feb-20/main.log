@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,14 +1276,38 @@ Package pdftex.def Info: img/tombstone/sci-fi.png used on input line 97.
  [3
 
  <./img/furniture/sofa.png>]
-(./pages/schedule.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 13.
- (/usr/local/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-))
-[4
+(./pages/whats-on.tex <img/whats-on/dodm.png, id=34, 86.4831pt x 86.2422pt>
+File: img/whats-on/dodm.png Graphic file (type png)
 
-] (./pages/guests.tex <img/guests/kemp.png, id=38, 945.5325pt x 945.5325pt>
+<use img/whats-on/dodm.png>
+Package pdftex.def Info: img/whats-on/dodm.png used on input line 28.
+(pdftex.def)             Requested size: 48.0pt x 47.8676pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 28.
+
+(/usr/local/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) (./txt/whats-on/dodm.tex) <img/whats-on/gaming.png, id=35, 153.2124pt x 153.2
+124pt>
+File: img/whats-on/gaming.png Graphic file (type png)
+
+<use img/whats-on/gaming.png>
+Package pdftex.def Info: img/whats-on/gaming.png used on input line 29.
+(pdftex.def)             Requested size: 48.0pt x 48.0003pt.
+ (./txt/whats-on/gaming.tex)
+<img/whats-on/library.png, id=36, 93.951pt x 93.951pt>
+File: img/whats-on/library.png Graphic file (type png)
+
+<use img/whats-on/library.png>
+Package pdftex.def Info: img/whats-on/library.png used on input line 30.
+(pdftex.def)             Requested size: 48.0pt x 48.00038pt.
+ (./txt/whats-on/library.tex)) [4
+
+ <./img/whats-on/dodm.png> <./img/whats-on/gaming.png> <./img/whats-on/library.
+png>]
+(./pages/schedule.tex) [5
+
+] (./pages/guests.tex
+<img/guests/kemp.png, id=47, 945.5325pt x 945.5325pt>
 File: img/guests/kemp.png Graphic file (type png)
 
 <use img/guests/kemp.png>
@@ -1296,32 +1320,57 @@ put line 19.
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 19.
  (./txt/guests/kemp.tex)
-<img/guests/kaveney.png, id=39, 110.3322pt x 110.3322pt>
+<img/guests/kaveney.png, id=48, 110.3322pt x 110.3322pt>
 File: img/guests/kaveney.png Graphic file (type png)
 
 <use img/guests/kaveney.png>
 Package pdftex.def Info: img/guests/kaveney.png used on input line 21.
 (pdftex.def)             Requested size: 130.60022pt x 130.6033pt.
  (./txt/guests/kaveney.tex)
-<img/guests/muir.png, id=40, 396.48125pt x 396.48125pt>
+<img/guests/muir.png, id=49, 396.48125pt x 396.48125pt>
 File: img/guests/muir.png Graphic file (type png)
 
 <use img/guests/muir.png>
 Package pdftex.def Info: img/guests/muir.png used on input line 23.
 (pdftex.def)             Requested size: 130.60022pt x 130.60327pt.
- (./txt/guests/muir.tex)) [5
+ (./txt/guests/muir.tex)) [6
 
  <./img/guests/kemp.png> <./img/guests/kaveney.png> <./img/guests/muir.png>] (.
-/pages/whats-on.tex
-(./txt/vendors/gaming.tex) (./txt/vendors/library.tex)
-(./txt/vendors/restuccia.tex) (./txt/vendors/couper.tex)
-(./txt/vendors/firebird.tex) (./txt/vendors/elsewhen.tex)) [6
+/pages/vendors.tex
+<img/vendors/restuccia.png, id=56, 59.0205pt x 58.7796pt>
+File: img/vendors/restuccia.png Graphic file (type png)
 
-] [7]
-(./pages/hunt-info.tex <img/hunt/jughead.png, id=54, 594.22pt x 594.22pt>
+<use img/vendors/restuccia.png>
+Package pdftex.def Info: img/vendors/restuccia.png used on input line 19.
+(pdftex.def)             Requested size: 48.0pt x 47.80403pt.
+ (./txt/vendors/restuccia.tex)
+<img/vendors/couper.png, id=57, 100.4553pt x 100.4553pt>
+File: img/vendors/couper.png Graphic file (type png)
+
+<use img/vendors/couper.png>
+Package pdftex.def Info: img/vendors/couper.png used on input line 20.
+(pdftex.def)             Requested size: 48.0pt x 48.00032pt.
+ (./txt/vendors/couper.tex)
+<img/vendors/firebird.png, id=58, 322.20375pt x 322.20375pt>
+File: img/vendors/firebird.png Graphic file (type png)
+
+<use img/vendors/firebird.png>
+Package pdftex.def Info: img/vendors/firebird.png used on input line 21.
+(pdftex.def)             Requested size: 48.0pt x 47.99907pt.
+ (./txt/vendors/firebird.tex)
+<img/vendors/elsewhen.png, id=59, 441.65pt x 441.65pt>
+File: img/vendors/elsewhen.png Graphic file (type png)
+
+<use img/vendors/elsewhen.png>
+Package pdftex.def Info: img/vendors/elsewhen.png used on input line 22.
+(pdftex.def)             Requested size: 48.0pt x 47.99535pt.
+ (./txt/vendors/elsewhen.tex)) [7
+
+ <./img/vendors/restuccia.png> <./img/vendors/couper.png> <./img/vendors/firebi
+rd.png> <./img/vendors/elsewhen.png>] (./pages/hunt-info.tex
+<img/hunt/jughead.png, id=68, 594.22pt x 594.22pt>
 File: img/hunt/jughead.png Graphic file (type png)
-
-<use img/hunt/jughead.png>
+ <use img/hunt/jughead.png>
 Package pdftex.def Info: img/hunt/jughead.png used on input line 35.
 (pdftex.def)             Requested size: 116.08887pt x 116.08551pt.
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
@@ -1340,21 +1389,22 @@ t available
 put line 35.
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 35.
- <img/hunt/jack.png, id=55, 620.3175pt x 620.3175pt>
-File: img/hunt/jack.png Graphic file (type png)
 
-<use img/hunt/jack.png>
+<img/hunt/jack.png, id=69, 620.3175pt x 620.3175pt>
+File: img/hunt/jack.png Graphic file (type png)
+ <use img/hunt/jack.png>
 Package pdftex.def Info: img/hunt/jack.png used on input line 37.
 (pdftex.def)             Requested size: 116.08887pt x 116.08208pt.
- <img/hunt/sulu.png, id=56, 457.71pt x 457.71pt>
-File: img/hunt/sulu.png Graphic file (type png)
 
-<use img/hunt/sulu.png>
+<img/hunt/sulu.png, id=70, 457.71pt x 457.71pt>
+File: img/hunt/sulu.png Graphic file (type png)
+ <use img/hunt/sulu.png>
 Package pdftex.def Info: img/hunt/sulu.png used on input line 39.
 (pdftex.def)             Requested size: 116.08887pt x 116.08943pt.
 LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 45.
-) (./pages/hunt-list.tex [8
+)
+(./pages/hunt-list.tex [8
 
  <./img/hunt/jughead.png> <./img/hunt/jack.png> <./img/hunt/sulu.png>] [9
 
@@ -1374,26 +1424,11 @@ available
 ut line 19.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[]\T1/Merriweather-OsF/m/n/10.95 Astronomical event, time of
- []
-
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 24.
 
-Underfull \hbox (badness 1127) in paragraph at lines 24--25
-[]\T1/Merriweather-OsF/m/n/10.95 Vital or-gan and su-pervil-lain in
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 28--29
-[]\T1/Merriweather-OsF/m/n/10.95 Wise severed head who gives
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-[]\T1/Merriweather-OsF/m/n/10.95 Important as-pect of LGBTQ+
+Underfull \hbox (badness 1521) in paragraph at lines 33--34
+[]\T1/Merriweather-OsF/m/n/10.95 An im-port-ant as-pect of LGBTQ+
  []
 
 
@@ -1416,21 +1451,21 @@ Overfull \hbox (153.43834pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
-) (./pages/media.tex <img/media/qr-small.png, id=75, 168.63pt x 168.63pt>
+) (./pages/media.tex <img/media/qr-small.png, id=89, 168.63pt x 168.63pt>
 File: img/media/qr-small.png Graphic file (type png)
 
 <use img/media/qr-small.png>
 Package pdftex.def Info: img/media/qr-small.png used on input line 12.
 (pdftex.def)             Requested size: 66.50868pt x 66.50905pt.
 
-<img/media/facebook.png, id=76, 822.272pt x 822.272pt>
+<img/media/facebook.png, id=90, 822.272pt x 822.272pt>
 File: img/media/facebook.png Graphic file (type png)
 
 <use img/media/facebook.png>
 Package pdftex.def Info: img/media/facebook.png used on input line 19.
 (pdftex.def)             Requested size: 19.19667pt x 19.20007pt.
 
-<img/media/twitter.png, id=77, 822.272pt x 822.272pt>
+<img/media/twitter.png, id=91, 822.272pt x 822.272pt>
 File: img/media/twitter.png Graphic file (type png)
 
 <use img/media/twitter.png>
@@ -1441,7 +1476,7 @@ File: img/media/twitter.png Graphic file (type png)
 Package pdftex.def Info: img/media/twitter.png used on input line 21.
 (pdftex.def)             Requested size: 19.19667pt x 19.20007pt.
 
-<img/media/instagram.png, id=78, 822.272pt x 822.272pt>
+<img/media/instagram.png, id=92, 822.272pt x 822.272pt>
 File: img/media/instagram.png Graphic file (type png)
 
 <use img/media/instagram.png>
@@ -1451,7 +1486,7 @@ Package pdftex.def Info: img/media/instagram.png used on input line 22.
 
  <./img/media/qr-small.png> <./img/media/facebook.png> <./img/media/twitter.png
 > <./img/media/instagram.png>]
-(./pages/map.tex <img/map.png, id=85, 401.0985pt x 517.4532pt>
+(./pages/map.tex <img/map.png, id=99, 401.0985pt x 517.4532pt>
 File: img/map.png Graphic file (type png)
 
 <use img/map.png>
@@ -1463,10 +1498,10 @@ LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 
  <./img/map.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 19141 strings out of 493093
- 378092 string characters out of 6138120
+ 19179 strings out of 493093
+ 379046 string characters out of 6138120
  485116 words of memory out of 5000000
- 22109 multiletter control sequences out of 15000+600000
+ 22138 multiletter control sequences out of 15000+600000
  67057 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,92p,509b,844s stack positions out of 5000i,2500n,10000p,300000b,80000s
@@ -1483,10 +1518,10 @@ Bold.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/local/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/lo
 cal/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/share
 /texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (13 pages, 2617708 bytes).
+Output written on main.pdf (13 pages, 3303663 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
