@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  22 FEB 2020 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  22 FEB 2020 00:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,31 +205,10 @@ s for all LaTeX engines.
 (/usr/local/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 ))
-(/usr/local/share/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks18
-\MT@count=\count92
-LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen112
-LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count93
-
-(/usr/local/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip43
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/local/share/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-))
 (/usr/local/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 
 (/usr/local/share/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
@@ -520,9 +499,9 @@ File: ts1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 ))
 (/usr/local/share/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count94
+\c@abspage=\count92
 )
-\c@pp@a@footnote=\count95
+\c@pp@a@footnote=\count93
 
 (/usr/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -547,10 +526,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count96
+\Gread@gobject=\count94
 ))
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 (/usr/local/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -558,26 +537,26 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/local/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen115
-\captionmargin@=\dimen116
-\captionwidth=\dimen117
-\caption@tempdima=\dimen118
-\caption@indent=\dimen119
-\caption@parindent=\dimen120
-\caption@hangindent=\dimen121
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
 )
-\c@ContinuedFloat=\count97
+\c@ContinuedFloat=\count95
 )
 (/usr/local/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen122
-\extrarowheight=\dimen123
-\NC@list=\toks21
-\extratabsurround=\skip44
-\backup@length=\skip45
+\col@sep=\dimen121
+\extrarowheight=\dimen122
+\NC@list=\toks20
+\extratabsurround=\skip43
+\backup@length=\skip44
 )
 (/usr/local/share/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen124
+\bigstrutjot=\dimen123
 )
 (/usr/local/share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty
 Package: logicpuzzle 2014/06/15 v2.5 logicpuzzle.sty- Josef Kleber (C) 2013-201
@@ -592,32 +571,32 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/local/share/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip46
-\RaggedLeftLeftskip=\skip47
-\RaggedRightLeftskip=\skip48
-\CenteringRightskip=\skip49
-\RaggedLeftRightskip=\skip50
-\RaggedRightRightskip=\skip51
-\CenteringParfillskip=\skip52
-\RaggedLeftParfillskip=\skip53
-\RaggedRightParfillskip=\skip54
-\JustifyingParfillskip=\skip55
-\CenteringParindent=\skip56
-\RaggedLeftParindent=\skip57
-\RaggedRightParindent=\skip58
-\JustifyingParindent=\skip59
+\CenteringLeftskip=\skip45
+\RaggedLeftLeftskip=\skip46
+\RaggedRightLeftskip=\skip47
+\CenteringRightskip=\skip48
+\RaggedLeftRightskip=\skip49
+\RaggedRightRightskip=\skip50
+\CenteringParfillskip=\skip51
+\RaggedLeftParfillskip=\skip52
+\RaggedRightParfillskip=\skip53
+\JustifyingParfillskip=\skip54
+\CenteringParindent=\skip55
+\RaggedLeftParindent=\skip56
+\RaggedRightParindent=\skip57
+\JustifyingParindent=\skip58
 )
 (/usr/local/share/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
-\c@mn@abspage=\count98
+\c@mn@abspage=\count96
 )
 (/usr/local/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen125
-\pgfutil@tempdimb=\dimen126
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen124
+\pgfutil@tempdimb=\dimen125
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
 )) (/usr/local/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -637,29 +616,29 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen127
-\pgf@y=\dimen128
-\pgf@xa=\dimen129
-\pgf@ya=\dimen130
-\pgf@xb=\dimen131
-\pgf@yb=\dimen132
-\pgf@xc=\dimen133
-\pgf@yc=\dimen134
+\pgf@x=\dimen126
+\pgf@y=\dimen127
+\pgf@xa=\dimen128
+\pgf@ya=\dimen129
+\pgf@xb=\dimen130
+\pgf@yb=\dimen131
+\pgf@xc=\dimen132
+\pgf@yc=\dimen133
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count99
-\c@pgf@countb=\count100
-\c@pgf@countc=\count101
-\c@pgf@countd=\count102
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
+\c@pgf@counta=\count97
+\c@pgf@countb=\count98
+\c@pgf@countc=\count99
+\c@pgf@countd=\count100
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
  (/usr/local/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -674,8 +653,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.te
 x
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count103
-\pgfsyssoftpath@bigbuffer@items=\count104
+\pgfsyssoftpath@smallbuffer@items=\count101
+\pgfsyssoftpath@bigbuffer@items=\count102
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.te
 x
@@ -704,12 +683,12 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen135
-\pgfmath@count=\count105
+\pgfmath@dimen=\dimen134
+\pgfmath@count=\count103
 \pgfmath@box=\box27
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.t
@@ -729,55 +708,55 @@ x)
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarith
 metics.code.tex)))
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count106
+\c@pgfmathroundto@lastzeros=\count104
 ))
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen136
-\pgf@picmaxx=\dimen137
-\pgf@picminy=\dimen138
-\pgf@picmaxy=\dimen139
-\pgf@pathminx=\dimen140
-\pgf@pathmaxx=\dimen141
-\pgf@pathminy=\dimen142
-\pgf@pathmaxy=\dimen143
-\pgf@xx=\dimen144
-\pgf@xy=\dimen145
-\pgf@yx=\dimen146
-\pgf@yy=\dimen147
-\pgf@zx=\dimen148
-\pgf@zy=\dimen149
+\pgf@picminx=\dimen135
+\pgf@picmaxx=\dimen136
+\pgf@picminy=\dimen137
+\pgf@picmaxy=\dimen138
+\pgf@pathminx=\dimen139
+\pgf@pathmaxx=\dimen140
+\pgf@pathminy=\dimen141
+\pgf@pathmaxy=\dimen142
+\pgf@xx=\dimen143
+\pgf@xy=\dimen144
+\pgf@yx=\dimen145
+\pgf@yy=\dimen146
+\pgf@zx=\dimen147
+\pgf@zy=\dimen148
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.co
 de.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen150
-\pgf@path@lasty=\dimen151
+\pgf@path@lastx=\dimen149
+\pgf@path@lasty=\dimen150
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.t
 ex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen152
-\pgf@shorten@start@additional=\dimen153
+\pgf@shorten@end@additional=\dimen151
+\pgf@shorten@start@additional=\dimen152
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count107
+\pgf@picture@serial@count=\count105
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.cod
 e.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen154
+\pgflinewidth=\dimen153
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.
 code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen155
-\pgf@pt@y=\dimen156
-\pgf@pt@temp=\dimen157
+\pgf@pt@x=\dimen154
+\pgf@pt@y=\dimen155
+\pgf@pt@temp=\dimen156
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -791,11 +770,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen158
+\pgfarrowsep=\dimen157
 ) (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen159
-\pgf@sys@shading@range@num=\count108
+\pgf@max=\dimen158
+\pgf@sys@shading@range@num=\count106
 ) (/usr/local/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
@@ -825,8 +804,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (/usr/local/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.s
 ty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen160
-\pgf@nodesepend=\dimen161
+\pgf@nodesepstart=\dimen159
+\pgf@nodesepend=\dimen160
 )
 (/usr/local/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.s
 ty
@@ -840,10 +819,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen162
-\pgffor@skip=\dimen163
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen161
+\pgffor@skip=\dimen162
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 ))
 (/usr/local/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
@@ -851,31 +830,31 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/local/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.c
 ode.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count109
-\pgfplotmarksize=\dimen164
+\pgf@plot@mark@count=\count107
+\pgfplotmarksize=\dimen163
 )
-\tikz@lastx=\dimen165
-\tikz@lasty=\dimen166
-\tikz@lastxsaved=\dimen167
-\tikz@lastysaved=\dimen168
-\tikzleveldistance=\dimen169
-\tikzsiblingdistance=\dimen170
+\tikz@lastx=\dimen164
+\tikz@lasty=\dimen165
+\tikz@lastxsaved=\dimen166
+\tikz@lastysaved=\dimen167
+\tikzleveldistance=\dimen168
+\tikzsiblingdistance=\dimen169
 \tikz@figbox=\box33
 \tikz@figbox@bg=\box34
 \tikz@tempbox=\box35
 \tikz@tempbox@bg=\box36
-\tikztreelevel=\count110
-\tikznumberofchildren=\count111
-\tikznumberofcurrentchild=\count112
-\tikz@fig@count=\count113
+\tikztreelevel=\count108
+\tikznumberofchildren=\count109
+\tikznumberofcurrentchild=\count110
+\tikz@fig@count=\count111
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count114
-\pgfmatrixcurrentcolumn=\count115
-\pgf@matrix@numberofcolumns=\count116
+\pgfmatrixcurrentrow=\count112
+\pgfmatrixcurrentcolumn=\count113
+\pgf@matrix@numberofcolumns=\count114
 )
-\tikz@expandcount=\count117
+\tikz@expandcount=\count115
 
 (/usr/local/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzl
 ibrarytopaths.code.tex
@@ -887,14 +866,14 @@ ibrarydecorations.pathmorphing.code.tex
 ibrarydecorations.code.tex
 (/usr/local/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.
 tex
-\pgfdecoratedcompleteddistance=\dimen171
-\pgfdecoratedremainingdistance=\dimen172
-\pgfdecoratedinputsegmentcompleteddistance=\dimen173
-\pgfdecoratedinputsegmentremainingdistance=\dimen174
-\pgf@decorate@distancetomove=\dimen175
-\pgf@decorate@repeatstate=\count118
-\pgfdecorationsegmentamplitude=\dimen176
-\pgfdecorationsegmentlength=\dimen177
+\pgfdecoratedcompleteddistance=\dimen170
+\pgfdecoratedremainingdistance=\dimen171
+\pgfdecoratedinputsegmentcompleteddistance=\dimen172
+\pgfdecoratedinputsegmentremainingdistance=\dimen173
+\pgf@decorate@distancetomove=\dimen174
+\pgf@decorate@repeatstate=\count116
+\pgfdecorationsegmentamplitude=\dimen175
+\pgfdecorationsegmentlength=\dimen176
 )
 \tikz@lib@dec@box=\box37
 )
@@ -929,20 +908,20 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
 \pgf@layerboxsaved@LPforeground=\box47
 \pgf@layerbox@LPforegroundtwo=\box48
 \pgf@layerboxsaved@LPforegroundtwo=\box49
-\c@LP@rows=\count119
-\c@LP@columns=\count120
-\c@LP@counter@unique=\count121
-\c@LP@counti=\count122
-\c@LP@countii=\count123
-\c@LP@countiii=\count124
-\c@LP@whiledo@i=\count125
-\c@LP@whiledo@ii=\count126
-\c@LP@count@ig@i=\count127
-\c@LP@count@ig@ii=\count128
-\c@LP@count@ig@iii=\count129
-\c@LP@count@ig@iv=\count130
-\c@LP@puzzlecounter=\count131
-\LP@length=\skip60
+\c@LP@rows=\count117
+\c@LP@columns=\count118
+\c@LP@counter@unique=\count119
+\c@LP@counti=\count120
+\c@LP@countii=\count121
+\c@LP@countiii=\count122
+\c@LP@whiledo@i=\count123
+\c@LP@whiledo@ii=\count124
+\c@LP@count@ig@i=\count125
+\c@LP@count@ig@ii=\count126
+\c@LP@count@ig@iii=\count127
+\c@LP@count@ig@iv=\count128
+\c@LP@puzzlecounter=\count129
+\LP@length=\skip59
 
 (/usr/local/share/texmf-dist/tex/latex/logicpuzzle/lpenv.sty
 Package: lpenv 2015/06/15 v2.5 lpenv.sty - Josef Kleber (C) 2013-2014
@@ -955,35 +934,35 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks34
+\@emptytoks=\toks33
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-\PuzzleUnitlength=\dimen178
-\Puzzle@X=\count132
-\Puzzle@Y=\count133
+\PuzzleUnitlength=\dimen177
+\Puzzle@X=\count130
+\Puzzle@Y=\count131
 )
 (/usr/local/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
-\c@tracingmulticols=\count134
+\c@tracingmulticols=\count132
 \mult@box=\box50
-\multicol@leftmargin=\dimen179
-\c@unbalance=\count135
-\c@collectmore=\count136
-\doublecol@number=\count137
-\multicoltolerance=\count138
-\multicolpretolerance=\count139
-\full@width=\dimen180
-\page@free=\dimen181
-\premulticols=\dimen182
-\postmulticols=\dimen183
-\multicolsep=\skip61
-\multicolbaselineskip=\skip62
+\multicol@leftmargin=\dimen178
+\c@unbalance=\count133
+\c@collectmore=\count134
+\doublecol@number=\count135
+\multicoltolerance=\count136
+\multicolpretolerance=\count137
+\full@width=\dimen179
+\page@free=\dimen180
+\premulticols=\dimen181
+\postmulticols=\dimen182
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
 \partial@page=\box51
 \last@line=\box52
-\maxbalancingoverflow=\dimen184
+\maxbalancingoverflow=\dimen183
 \mult@rightbox=\box53
 \mult@grightbox=\box54
 \mult@gfirstbox=\box55
@@ -1005,45 +984,45 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \@tempa=\box71
 \@tempa=\box72
 \@tempa=\box73
-\c@columnbadness=\count140
-\c@finalcolumnbadness=\count141
-\last@try=\dimen185
-\multicolovershoot=\dimen186
-\multicolundershoot=\dimen187
+\c@columnbadness=\count138
+\c@finalcolumnbadness=\count139
+\last@try=\dimen184
+\multicolovershoot=\dimen185
+\multicolundershoot=\dimen186
 \mult@nat@firstbox=\box74
 \colbreak@box=\box75
-\mc@col@check@num=\count142
+\mc@col@check@num=\count140
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
 
 (/usr/local/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Try loading font information for T1+Merriweather-OsF on inp
-ut line 87.
+ut line 84.
 
 (/usr/local/share/texmf-dist/tex/latex/merriweather/T1Merriweather-OsF.fd
 File: T1Merriweather-OsF.fd 2014/01/22 (autoinst) Font definitions for T1/Merri
 weather-OsF.
 )
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
+(Font)              scaled to size 12.0pt on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1079,35 +1058,21 @@ LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count143
-\c@mv@boldtabular=\count144
-LaTeX Info: Redefining \microtypecontext on input line 87.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Merriweather-OsF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+\c@mv@tabular=\count141
+\c@mv@boldtabular=\count142
 (/usr/local/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen188
+\scratchcounter=\count143
+\scratchdimen=\dimen187
 \scratchbox=\box76
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen189
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks36
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen188
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1151,7 +1116,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 87.
+LaTeX Info: Redefining \selectfont on input line 84.
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
  ABD: EveryShipout initializing macros
@@ -1165,28 +1130,24 @@ Package pdftex.def Info: img/cover/cover-image.png used on input line 4.
 
  <./img/cover/cover-image.png>])
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 92.
+(Font)              scaled to size 24.88pt on input line 89.
 LaTeX Font Info:    Try loading font information for T1+RobotoCondensed-LF on i
-nput line 92.
+nput line 89.
 
 (/usr/local/share/texmf-dist/tex/latex/roboto/T1RobotoCondensed-LF.fd
 File: T1RobotoCondensed-LF.fd 2015/04/16 (autoinst) Font definitions for T1/Rob
 otoCondensed-LF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 92.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `RobotoCondensed-LF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 24.88pt on input line 89.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/bx/n' in size <24.88> not
  available
 (Font)              Font shape `T1/RobotoCondensed-LF/b/n' tried instead on inp
-ut line 92.
+ut line 89.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 92.
+(Font)              scaled to size 24.88pt on input line 89.
 LaTeX Font Info:    Try loading font information for TS1+RobotoCondensed-LF on 
-input line 92.
+input line 89.
 
 (/usr/local/share/texmf-dist/tex/latex/roboto/TS1RobotoCondensed-LF.fd
 File: TS1RobotoCondensed-LF.fd 2015/04/16 (autoinst) Font definitions for TS1/R
@@ -1195,57 +1156,42 @@ obotoCondensed-LF.
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/bx/n' in size <24.88> no
 t available
 (Font)              Font shape `TS1/RobotoCondensed-LF/b/n' tried instead on in
-put line 92.
+put line 89.
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 92.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `RobotoCondensed-LF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 24.88pt on input line 89.
 
 <img/furniture/chair.png, id=12, 623.32875pt x 623.32875pt>
 File: img/furniture/chair.png Graphic file (type png)
 
 <use img/furniture/chair.png>
-Package pdftex.def Info: img/furniture/chair.png used on input line 93.
+Package pdftex.def Info: img/furniture/chair.png used on input line 90.
 (pdftex.def)             Requested size: 72.55157pt x 72.55157pt.
-
-(/usr/local/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
 
 (/usr/local/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/local/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 
 (/usr/local/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/usr/local/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 93.
+(Font)              scaled to size 17.28pt on input line 90.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 93.
+(Font)              scaled to size 17.28pt on input line 90.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/bx/n' in size <17.28> not
  available
 (Font)              Font shape `T1/RobotoCondensed-LF/b/n' tried instead on inp
-ut line 93.
+ut line 90.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 93.
+(Font)              scaled to size 17.28pt on input line 90.
  (./txt/chair.tex)
 <img/tombstone/sci-fi.png, id=13, 103.8279pt x 51.0708pt>
 File: img/tombstone/sci-fi.png Graphic file (type png)
 
 <use img/tombstone/sci-fi.png>
-Package pdftex.def Info: img/tombstone/sci-fi.png used on input line 93.
+Package pdftex.def Info: img/tombstone/sci-fi.png used on input line 90.
 (pdftex.def)             Requested size: 18.58998pt x 9.144pt.
  [2
 
@@ -1256,7 +1202,7 @@ ne/sci-fi.png> <./img/furniture/chair.png>]
 File: img/furniture/sofa.png Graphic file (type png)
 
 <use img/furniture/sofa.png>
-Package pdftex.def Info: img/furniture/sofa.png used on input line 97.
+Package pdftex.def Info: img/furniture/sofa.png used on input line 94.
 (pdftex.def)             Requested size: 72.55157pt x 72.552pt.
  (./txt/sofa.tex
 
@@ -1284,10 +1230,6 @@ riweather-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Merriweather-OsF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 7.
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
@@ -1302,7 +1244,7 @@ LaTeX Font Info:    Font shape `T1/Merriweather-OsF/b/n' will be
 File: img/tombstone/sci-fi.png Graphic file (type png)
 
 <use img/tombstone/sci-fi.png>
-Package pdftex.def Info: img/tombstone/sci-fi.png used on input line 97.
+Package pdftex.def Info: img/tombstone/sci-fi.png used on input line 94.
 (pdftex.def)             Requested size: 18.58998pt x 9.144pt.
  [3
 
@@ -1317,13 +1259,8 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 28.
 
 (/usr/local/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (./txt/whats-on/dodm.tex) <img/whats-on/gaming.png, id=35, 153.2124pt x 153.21
-24pt>
+) (./txt/whats-on/dodm.tex) <img/whats-on/gaming.png, id=35, 153.2124pt x 153.2
+124pt>
 File: img/whats-on/gaming.png Graphic file (type png)
 
 <use img/whats-on/gaming.png>
@@ -1444,7 +1381,12 @@ LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 
  <./img/hunt/jughead.png> <./img/hunt/jack.png> <./img/hunt/sulu.png>] [9
 
-]) [10] (./pages/crossword.tex) (./pages/crossword-clues.tex
+]
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\T1/Merriweather-OsF/m/n/10.95 Time ma-chine (points were
+ []
+
+) [10] (./pages/crossword.tex) (./pages/crossword-clues.tex
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 19.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/n' will be
@@ -1458,8 +1400,18 @@ LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
 LaTeX Font Info:    Font shape `T1/Merriweather-OsF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 24.
 
-Underfull \hbox (badness 1178) in paragraph at lines 33--34
-[]\T1/Merriweather-OsF/m/n/10.95 (+20) An im-port-ant as-pect of LGBTQ+
+Underfull \hbox (badness 1521) in paragraph at lines 33--34
+[]\T1/Merriweather-OsF/m/n/10.95 An im-port-ant as-pect of LGBTQ+
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 40--40
+[]\T1/Merriweather-OsF/m/it/10.95 Crossword cre-ated
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 40--40
+\T1/Merriweather-OsF/m/it/10.95 by Henry Wild &
  []
 
 ) [11
@@ -1519,11 +1471,11 @@ LaTeX Font Info:    Font shape `TS1/Merriweather-OsF/m/n' will be
 
  <./img/map.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 20777 strings out of 493093
- 412434 string characters out of 6138120
- 537775 words of memory out of 5000000
- 23522 multiletter control sequences out of 15000+600000
- 85501 words of font info for 220 fonts, out of 8000000 for 9000
+ 19088 strings out of 493093
+ 377753 string characters out of 6138120
+ 483799 words of memory out of 5000000
+ 22053 multiletter control sequences out of 15000+600000
+ 67057 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,92p,509b,844s stack positions out of 5000i,2500n,10000p,300000b,80000s
 {/usr/local/share/texmf-dist/fonts/enc/dvips/cm
@@ -1539,10 +1491,10 @@ Bold.pfb></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/local/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/lo
 cal/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/share
 /texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (13 pages, 3320621 bytes).
+Output written on main.pdf (13 pages, 3303719 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 42119 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
