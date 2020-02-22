@@ -1,0 +1,25 @@
+\newenvironment{smlist}{\begin{itemize}\itemsep-0.6em}{\end{itemize}}
+\newcommand{\socialmedia}[2]{
+  % #1 - name
+  % #2 - address
+\item[\raisebox{\dimexpr-.55em}{
+    \includegraphics[height=1.6em]{img/media/#1}
+}] {\texttt{#2}}
+}
+\begin{center}
+\begin{minipage}{0.25\textwidth}
+  \begin{center}
+    \includegraphics[width=0.55\textwidth]{img/media/qr-small}
+    \vfill
+  \texttt{icsf.org.uk}
+  \end{center}
+\end{minipage}%
+\begin{minipage}{0.3\textwidth}
+  \begin{smlist}
+  \socialmedia{facebook}{ICSF.Imperial}
+  \socialmedia{twitter}{@Picocon}
+  \socialmedia{twitter}{@Imperial\_SciFi}
+  \socialmedia{instagram}{@Imperial\_SciFi}
+  \end{smlist}
+\end{minipage}
+\end{center}

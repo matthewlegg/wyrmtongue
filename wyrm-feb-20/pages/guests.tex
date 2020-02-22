@@ -1,0 +1,24 @@
+%\makeatletter
+\newcommand{\goh}[2]{%
+% #1 - name
+% #2 - source
+\begin{minipage}{0.27\textwidth}
+\includegraphics[width=\textwidth]{img/guests/#2.png}
+\begin{center}
+{\Large \decorated{#1}}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}{0.67\textwidth}
+%\def\gohname##1##2{\altf{\Large ##1 }##2}
+%\expandafter\gohname\@@input txt/guests/#2
+\input{txt/guests/#2}
+\end{minipage}%
+}
+%\makeatother
+\vfill
+\goh{Juliet Kemp}{kemp}
+\vfill
+\goh{Roz Kaveney}{kaveney}
+\vfill
+\goh{Tamsyn Muir}{muir}
+\vfill

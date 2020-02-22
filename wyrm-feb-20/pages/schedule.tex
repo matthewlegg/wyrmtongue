@@ -1,0 +1,69 @@
+\newcommand{\scheduleitem}[2]{%
+  \multirow{#1}{*}{
+    \begin{minipage}[t]{0.7\textwidth}
+      #2
+    \end{minipage}
+  }%
+}
+\newcommand{\at}[1]{\hfill{\footnotesize #1}}
+
+\begin{center}
+  \renewcommand{\arraystretch}{2.2}
+  \begin{tabular}[t]{>{\ttfamily}r l}
+    10:00 & Front desk / registration opens \\\hline
+    10:30 & \scheduleitem{2}{
+      Guest Talk: \textbf{Roz Kaveney}
+      \at{Blackett LT1}
+    } \\
+    11:00 \\
+    \hline
+    11:30 & \scheduleitem{2}{
+      Guest Talk: \textbf{Tamsyn Muir}
+      \at{Blackett LT1}
+    } \\
+    12:00 \\
+    \hline
+    12:30 & \scheduleitem{3}{
+      \textbf{Lunch Break}
+    } \\
+    13:00 \\
+    13:30 \\
+    \hline
+    14:00 & \scheduleitem{2}{
+      Guest Talk: \textbf{Juliet Kemp}
+      \at{Blackett LT1}
+    } \\
+    14:30 \\
+    \hline
+    15:00 & \scheduleitem{2}{
+      \textbf{Group Panel}
+      \at{Blackett LT1}
+    } \\
+    15:30 \\
+    \hline
+    16:00 & \scheduleitem{5}{
+      \textbf{Destruction of Dodgy Merchandise}
+      \at{Queen's Lawn}
+      \vspace{1em}\newline
+      \textbf{Tabletop \& Gaming}
+      \at{Blackett 1004}
+      \vspace{1em}\newline
+      \textbf{Charity + Silly Games}
+      \at{Blackett LT1}
+    } \\
+    16:30 \\
+    17:00 \\
+    17:30 \\
+    18:00 \\
+    \hline
+    18:30 & \textbf{Harmless Fun} \footnotemark \at{Queen's Lawn} \\
+    \hline
+    19:00 & \scheduleitem{2}{
+      \textbf{Pub Quiz}
+      \at{Blackett LT1}
+    } \\
+    19:30 \\
+  \end{tabular}
+\end{center}
+
+\footnotetext{definitely not a fish duel.}
