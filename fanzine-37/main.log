@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  21 FEB 2020 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2019.6.29)  22 FEB 2020 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,36 +787,53 @@ LaTeX Font Info:    Redeclaring math symbol \eth on input line 57.
 LaTeX Font Info:    Redeclaring math symbol \mho on input line 58.
 )
 LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 204.
+)
+(/usr/local/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
 
 (/usr/local/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 5.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 10.
 
 (/usr/local/share/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Try loading font information for OT1+qcs on input line 5.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for OT1+qcs on input line 10.
 
 (/usr/local/share/texmf-dist/tex/latex/tex-gyre/ot1qcs.fd
 File: ot1qcs.fd 2009/09/25 v1.2 font definition file for OT1/qcs
@@ -894,67 +911,83 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./main.toc
-LaTeX Font Info:    Try loading font information for OT1+zavm on input line 2.
- (/usr/local/share/texmf-dist/tex/latex/arev/ot1zavm.fd
+<img/cover.png, id=1, 1204.5pt x 1204.5pt>
+File: img/cover.png Graphic file (type png)
+ <use img/cover.png>
+Package pdftex.def Info: img/cover.png used on input line 12.
+(pdftex.def)             Requested size: 483.69687pt x 483.7029pt.
+ [1
+
+{/usr/local/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/cover.p
+ng>]
+<img/tombstone.png, id=10, 103.8279pt x 51.0708pt>
+File: img/tombstone.png Graphic file (type png)
+ <use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 34.
+(pdftex.def)             Requested size: 17.55228pt x 8.63399pt.
+LaTeX Font Info:    Try loading font information for OT1+zavm on input line 37.
+
+
+(/usr/local/share/texmf-dist/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
-LaTeX Font Info:    Try loading font information for OML+zavm on input line 2.
+LaTeX Font Info:    Try loading font information for OML+zavm on input line 37.
+
 
 (/usr/local/share/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zavm on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+zavm on input line 37.
+
 
 (/usr/local/share/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 2.
-
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 37
+.
 
 (/usr/local/share/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
+(Font)              scaled to size 11.52008pt on input line 37.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 2.
+(Font)              scaled to size 8.64006pt on input line 37.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+(Font)              scaled to size 6.72005pt on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 
 (/usr/local/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 (/usr/local/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 2.
-
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 37
+.
 
 (/usr/local/share/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
+(Font)              scaled to size 11.52008pt on input line 37.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 2.
+(Font)              scaled to size 8.64006pt on input line 37.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+zavm on input line 2.
+(Font)              scaled to size 6.72005pt on input line 37.
+LaTeX Font Info:    Try loading font information for U+zavm on input line 37.
 
 (/usr/local/share/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
-))
+) (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [1
+ [2
 
-{/usr/local/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./txt/maretv
-adakethope.tex
+ <./img/tombstone.png>] (./txt/maretvadakethope.tex
 
 ! Package inputenc Error: Unicode char \u8:﻿ not set up for use with LaTeX.
 
@@ -980,21 +1013,27 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 (Font)              scaled to size 7.29605pt on input line 33.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 (Font)              scaled to size 5.76004pt on input line 33.
-[2
+[3
 
-] [3] [4]
+] [4] [5]
 Overfull \hbox (7.06937pt too wide) in paragraph at lines 203--207
 []\OT1/qcs/m/n/12 Instinctively, Kalpana leant for-ward, reach-ing to-wards the
 m. When her fin-ger-tips touched
  []
 
-[5] [6]) <img/maretvadakethope.pdf, id=24, 614.295pt x 794.97pt>
+[6] [7])
+File: img/tombstone.png Graphic file (type png)
+ <use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 45.
+(pdftex.def)             Requested size: 17.55228pt x 8.63399pt.
+
+<img/maretvadakethope.pdf, id=36, 614.295pt x 794.97pt>
 File: img/maretvadakethope.pdf Graphic file (type pdf)
 
 <use img/maretvadakethope.pdf>
-Package pdftex.def Info: img/maretvadakethope.pdf used on input line 17.
+Package pdftex.def Info: img/maretvadakethope.pdf used on input line 47.
 (pdftex.def)             Requested size: 483.69687pt x 625.9694pt.
- [7] [8 <./img/maretvadakethope.pdf>]
+ [8] [9 <./img/maretvadakethope.pdf>]
 (./txt/sechkar.tex
 
 ! Package inputenc Error: Unicode char \u8:﻿ not set up for use with LaTeX.
@@ -1009,10 +1048,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[9
+[10
 
 
-] [10] [11] [12]) [13] (./txt/raudonyte.tex
+] [11] [12] [13])
+File: img/tombstone.png Graphic file (type png)
+ <use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 53.
+(pdftex.def)             Requested size: 17.55228pt x 8.63399pt.
+ [14] (./txt/raudonyte.tex
 
 ! Package inputenc Error: Unicode char \u8:﻿ not set up for use with LaTeX.
 
@@ -1026,21 +1070,27 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14
+[15
 
-] [15] [16]
+] [16] [17]
 LaTeX Font Info:    Try loading font information for TS1+qcs on input line 225.
 
  (/usr/local/share/texmf-dist/tex/latex/tex-gyre/ts1qcs.fd
 File: ts1qcs.fd 2009/09/25 v1.2 font definition file for TS1/qcs
 ))
-<img/raudonyte.pdf, id=61, 597.23125pt x 844.15375pt>
-File: img/raudonyte.pdf Graphic file (type pdf)
- <use img/raudonyte.pdf>
-Package pdftex.def Info: img/raudonyte.pdf used on input line 29.
-(pdftex.def)             Requested size: 483.69687pt x 683.68352pt.
+File: img/tombstone.png Graphic file (type png)
 
-[17] [18 <./img/raudonyte.pdf, page is rotated 180 degrees>] (./txt/maharaj.tex
+<use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 57.
+(pdftex.def)             Requested size: 17.55228pt x 8.63399pt.
+ <img/raudonyte.pdf, id=75, 597.23125pt x 844.15375pt>
+File: img/raudonyte.pdf Graphic file (type pdf)
+
+<use img/raudonyte.pdf>
+Package pdftex.def Info: img/raudonyte.pdf used on input line 59.
+(pdftex.def)             Requested size: 483.69687pt x 683.68352pt.
+ [18] [19 <./img/raudonyte.pdf, page is rotated 180 degrees>] (./txt/maharaj.te
+x
 
 ! Package inputenc Error: Unicode char \u8:﻿ not set up for use with LaTeX.
 
@@ -1054,10 +1104,10 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[19
+[20
 
 
-] [20] [21] [22] [23] [24] [25]
+] [21] [22] [23] [24] [25] [26]
 LaTeX Font Info:    Try loading font information for OT1+lmvtt on input line 45
 3.
 
@@ -1069,33 +1119,43 @@ LaTeX Font Info:    Try loading font information for TS1+lmvtt on input line 48
 
 (/usr/local/share/texmf-dist/tex/latex/lm/ts1lmvtt.fd
 File: ts1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [26
+) [27
 
-] [27] [28] [29])
-[30] (./main.aux) ) 
+] [28] [29] [30])
+File: img/tombstone.png Graphic file (type png)
+
+<use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 65.
+(pdftex.def)             Requested size: 17.55228pt x 8.63399pt.
+ <img/icsf-logo.png, id=133, 397.0032pt x 106.9596pt>
+File: img/icsf-logo.png Graphic file (type png)
+
+<use img/icsf-logo.png>
+Package pdftex.def Info: img/icsf-logo.png used on input line 69.
+(pdftex.def)             Requested size: 241.84843pt x 65.1571pt.
+ [31 <./img/icsf-logo.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3493 strings out of 493093
- 48296 string characters out of 6138120
- 108125 words of memory out of 5000000
- 6849 multiletter control sequences out of 15000+600000
- 64279 words of font info for 91 fonts, out of 8000000 for 9000
+ 3966 strings out of 493093
+ 53744 string characters out of 6138120
+ 118362 words of memory out of 5000000
+ 7316 multiletter control sequences out of 15000+600000
+ 65362 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,28p,355b,180s stack positions out of 5000i,2500n,10000p,300000b,80000s
-{/usr/local/share/texmf-dist/fonts/enc/dvips/arev/arevoml.en
-c}{/usr/local/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/share/
-texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/share/texmf-dist/fonts/enc/
-dvips/tex-gyre/q-ts1.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/
-q-rm.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}</usr/lo
-cal/share/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/local/shar
-e/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/local/share/tex
-mf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/local/share/texmf-dist/fonts/ty
-pe1/public/tex-gyre/qcsb.pfb></usr/local/share/texmf-dist/fonts/type1/public/te
-x-gyre/qcsbi.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsr.
-pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb>
-Output written on main.pdf (30 pages, 7019629 bytes).
+ 44i,8n,35p,355b,182s stack positions out of 5000i,2500n,10000p,300000b,80000s
+{/usr/local/share/texmf-dist/fonts/en
+c/dvips/arev/arevoml.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1
+.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/shar
+e/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/share/texmf-dist/fo
+nts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/share/texmf-dist/fonts/type1/public
+/arev/ArevSans-Oblique.pfb></usr/local/share/texmf-dist/fonts/type1/public/lm/l
+mvtt10.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsb.pfb></
+usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsbi.pfb></usr/local/sh
+are/texmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/local/share/texmf-dis
+t/fonts/type1/public/tex-gyre/qcsri.pfb>
+Output written on main.pdf (31 pages, 7128526 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 170 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
