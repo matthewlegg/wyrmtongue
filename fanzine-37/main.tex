@@ -1,13 +1,43 @@
 \documentclass{picocon-fanzine}
 
 \usepackage{arevmath}
+\usepackage{xcolor}
+
+\renewcommand{\tombstone}{%
+  \includegraphics[height=\fontcharht\font`\B,clip]{img/tombstone}%
+}
 
 \begin{document}
+\thispagestyle{empty}
+\includegraphics[width=\textwidth]{img/cover}
+\vfill
+\begin{center}{\color{gray}- p i c o c o n - 3 7 - f a n z i n e -}\end{center}
+\clearpage
 
 \head{From the Editor}
-text.
 
+Where an old tree once stood, a girl remembers; far away, a
+quarter-hundred diplomats sit in a circle. In a tale with many
+endings, in none of them do heroes save the universe; aboard a
+spacecraft far above a sky made of dust, a robot tells their captain a
+story from a dead planet.
+
+These are the wondrous visions brought to you by the writers and
+artists of this issue of the \textit{Picocon Fanzine:} the companion
+publication to the annual convention, and a showcase of creative work
+from the Imperial College Science Fiction \& Fantasy Society. We hope
+you enjoy the stories.
+
+As always: our sincere thanks to all of you who wrote to us in these
+past few months. To those of you with us today at Picocon 37
+\textit{Pride,} have a great time! And to those of you reading in the
+future\textemdash we hope it is good. \tombstone{}
+
+\hfill \parbox{0.5\textwidth}{{\large\textbf{Jean Lo}}\\Wyrmtongue
+  Editor}
+\vfill
 \tableofcontents
+\vfill
 
 \clearpage
 \story{What is Rooted}{Smitha Maretvadakethope}{
@@ -28,13 +58,16 @@ text.
 
 \artpage{Alixe}{Sintija Raudonyte}{img/raudonyte}
 
-%\story{Oh The Fun of Being}{Michael Figini}{
-%}{txt/figini}
-
 \clearpage
 \story{A Handful of Dust}{Jovanna Maharaj}{ She looks at the planet,
   and she can taste sand coating her tongue and stinging at her eyes,
   her skin cracking in the harsh half-light of its sky.
 }{txt/maharaj}
+
+\vfill
+\begin{center}
+  \includegraphics[width=0.5\textwidth]{img/icsf-logo}
+\end{center}
+\vspace{4em}
 
 \end{document}

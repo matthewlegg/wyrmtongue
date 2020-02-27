@@ -1,10 +1,10 @@
-\contentsline {section}{What is Rooted}{2}
+\contentsline {section}{What is Rooted}{3}
 \noindent Smitha Maretvadakethope\vskip .5em \hspace {1em} \parbox {0.7\textwidth }{\itshape `We never forget the ones we love.' } \unhbox \voidb@x \par \vspace \medskipamount 
-\contentsline {section}{Teak Tree {\normalfont \textemdash {} artwork by Smitha Maretvadakethope}}{7}
-\contentsline {section}{The Twenty-Five Mondays}{9}
+\contentsline {section}{Teak Tree {\normalfont \textemdash {} artwork by Smitha Maretvadakethope}}{8}
+\contentsline {section}{The Twenty-Five Mondays}{10}
 \noindent Kirill Sechkar\vskip .5em \hspace {1em} \parbox {0.7\textwidth }{\itshape There were twenty-five chairs, evenly distributed around the table, and on twenty-four of them sat twenty-four identical middle-aged men \textellipsis } \unhbox \voidb@x \par \vspace \medskipamount 
-\contentsline {section}{Sanitar 150-B}{14}
+\contentsline {section}{Sanitar 150-B}{15}
 \noindent Sintija Raudonyte\vskip .5em \hspace {1em} \parbox {0.7\textwidth }{\itshape `What does the B in Sanitar 150-B stand for?' } \unhbox \voidb@x \par \vspace \medskipamount 
-\contentsline {section}{Alixe {\normalfont \textemdash {} artwork by Sintija Raudonyte}}{17}
-\contentsline {section}{A Handful of Dust}{19}
+\contentsline {section}{Alixe {\normalfont \textemdash {} artwork by Sintija Raudonyte}}{18}
+\contentsline {section}{A Handful of Dust}{20}
 \noindent Jovanna Maharaj\vskip .5em \hspace {1em} \parbox {0.7\textwidth }{\itshape She looks at the planet, and she can taste sand coating her tongue and stinging at her eyes, her skin cracking in the harsh half-light of its sky. } \unhbox \voidb@x \par \vspace \medskipamount 
