@@ -1,0 +1,28 @@
+\pgfplotstableread[row sep=\\,col sep=&]{
+option&votes\\
+Rose&3\\
+Martha&2\\
+Donna&4\\
+Amy \& Rory&0\\
+Clara&2\\
+Bill&0\\
+The Gang&0\\
+}\companionsplit
+\begin{tikzpicture}[baseline]
+\footnotesize
+\begin{axis}[
+width=0.32\textwidth,
+height=10em,
+ymin=-0.2,
+axis line style={draw=none},
+xtick style={draw=none},
+ybar,
+symbolic x coords={Rose,Martha,Donna,Amy \& Rory,Clara,Bill,The Gang},
+xtick=data,
+tick label style={rotate=90},
+ymajorticks=false,
+nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber\pgfplotspointmeta}},
+]
+\addplot[draw=none,fill=black] table[y=votes,x=option]\companionsplit;
+\end{axis}
+\end{tikzpicture}

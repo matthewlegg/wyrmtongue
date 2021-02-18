@@ -1,0 +1,26 @@
+\pgfplotstableread[row sep=\\,col sep=&]{
+option&votes\\
+Eccleston&2\\
+Tennant&9\\
+Smith&1\\
+Capaldi&1\\
+Whittaker&0\\
+}\doctorsplit
+\begin{tikzpicture}[baseline]
+\footnotesize
+\begin{axis}[
+width=0.25\textwidth,
+height=10em,
+ymin=-0.2,
+axis line style={draw=none},
+xtick style={draw=none},
+ybar,
+symbolic x coords={Eccleston,Tennant,Smith,Capaldi,Whittaker},
+xtick=data,
+tick label style={rotate=90},
+ymajorticks=false,
+nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber\pgfplotspointmeta}},
+]
+\addplot[draw=none,fill=black] table[y=votes,x=option]\doctorsplit;
+\end{axis}
+\end{tikzpicture}

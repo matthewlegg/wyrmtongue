@@ -1,0 +1,33 @@
+\pgfplotstableread[row sep=\\,col sep=&]{
+option&votes\\
+1&2\\
+2&1\\
+3&2\\
+4&5\\
+5&0\\
+6&0\\
+7&1\\
+8&0\\
+9&1\\
+10&0\\
+11&0\\
+12&0\\
+}\seriessplit
+\begin{tikzpicture}[baseline]
+\footnotesize
+\begin{axis}[
+width=0.5\textwidth,
+height=10em,
+ymin=-0.2,
+axis line style={draw=none},
+xtick style={draw=none},
+ybar,
+symbolic x coords={1,2,3,4,5,6,7,8,9,10,11,12},
+xtick=data,
+tick label style={rotate=90},
+ymajorticks=false,
+nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber\pgfplotspointmeta}},
+]
+\addplot[draw=none,fill=black] table[y=votes,x=option]\seriessplit;
+\end{axis}
+\end{tikzpicture}

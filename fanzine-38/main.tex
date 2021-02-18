@@ -1,0 +1,84 @@
+\documentclass{picocon-fanzine}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{array}
+\usepackage{textgreek}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\renewcommand{\tombstone}{%
+  \includegraphics[height=\fontcharht\font`\B,clip]{img/tombstone}%
+}
+
+\begin{document}
+\thispagestyle{empty}
+\includegraphics[width=\textwidth]{img/cover}
+\vfill
+\begin{center}{\color{gray}- p i c o c o n - 3 7 - f a n z i n e -}\end{center}
+\clearpage
+
+\head{From the Editor}
+
+Where an old tree once stood, a girl remembers; far away, a
+quarter-hundred diplomats sit in a circle. In a tale with many
+endings, in none of them do heroes save the universe; aboard a
+spacecraft far above a sky made of dust, a robot tells their captain a
+story from a dead planet.
+
+These are the wondrous visions brought to you by the writers and
+artists of this issue of the \textit{Picocon Fanzine:} the companion
+publication to the annual convention, and a showcase of creative work
+from the Imperial College Science Fiction \& Fantasy Society. We hope
+you enjoy the stories.
+
+As always: our sincere thanks to all of you who wrote to us in these
+past few months. To those of you with us today at Picocon 37
+\textit{Pride,} have a great time! And to those of you reading in the
+future\textemdash we hope it is good. \tombstone{}
+
+\hfill \parbox{0.5\textwidth}{{\large\textbf{Jean Lo}}\\Wyrmtongue
+  Editor}
+\vfill
+\tableofcontents
+\vfill
+
+\clearpage
+\story{Justify}{Kimi Maharaj}{
+You've never been interested in knowing; you'd have to
+try real hard to muster up a want to.
+}{txt/maharaj}
+
+\vfill
+\artpage{Spacewalk}{Karrot}{img/karet}
+
+% some ad-hoc formatting, it is the week before Picocon i don't want to debug
+% two-year-old macros
+\clearpage
+\addcontentsline{toc}{section}{Intermission: {\normalfont ICSF \emph{Doctor Who} Favourites}}
+\hfill
+\parbox{0.95\textwidth}{
+  {\Large\textbf{ICSF \emph{Doctor Who} Favourites}\par}\vspace{0.2em}
+  presented by Rebecca Allday}\par\vspace{1em}
+\input{txt/allday}
+\tombstone
+
+\clearpage
+\story{The Life of a Train Named SAT}{Saad Ahmed}{
+I drove ahead, and I observed.
+}{txt/ahmed}
+
+\clearpage
+\story{What Sharp
+\raisebox{-0.4ex}{\rule{5em}{2.3ex}}
+You Have}{Georgia Stroud}{
+The forest isn't a forest. Not anymore.
+}{txt/stroud}
+
+
+\vfill
+\begin{center}
+  \includegraphics[width=0.5\textwidth]{img/icsf-logo}
+\end{center}
+\vspace{4em}
+
+\end{document}
