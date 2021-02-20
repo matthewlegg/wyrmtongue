@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2020.7.9)  18 FEB 2021 06:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (Web2C 2015) (preloaded format=pdflatex 2020.7.9)  20 FEB 2021 07:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,41 +1378,40 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into
 your preamble.
  on input line 13.
 
-<img/cover.png, id=4, 1204.5pt x 1204.5pt>
+<img/cover.png, id=4, 1177.39874pt x 243.91125pt>
 File: img/cover.png Graphic file (type png)
  <use img/cover.png>
-Package pdftex.def Info: img/cover.png used on input line 15.
-(pdftex.def)             Requested size: 483.69687pt x 483.7029pt.
- [1
+Package pdftex.def Info: img/cover.png used on input line 17.
+(pdftex.def)             Requested size: 241.84843pt x 50.09889pt.
+LaTeX Font Info:    Try loading font information for T1+lmvtt on input line 20.
+
+
+(/usr/local/share/texmf-dist/tex/latex/lm/t1lmvtt.fd
+File: t1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
 
 {/usr/local/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/cover.p
 ng>]
-<img/tombstone.png, id=13, 103.8279pt x 51.0708pt>
+<img/tombstone.png, id=11, 103.8279pt x 51.0708pt>
 File: img/tombstone.png Graphic file (type png)
  <use img/tombstone.png>
-Package pdftex.def Info: img/tombstone.png used on input line 37.
+Package pdftex.def Info: img/tombstone.png used on input line 38.
 (pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 40.
+(Font)              <12> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 40.
+(Font)              <8> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 40.
+(Font)              <6> on input line 42.
 
 (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2
+ [1
 
  <./img/tombstone.png>] (./txt/maharaj.tex
 \userwidth=\skip46
-LaTeX Font Info:    Try loading font information for T1+lmvtt on input line 22.
-
-
-(/usr/local/share/texmf-dist/tex/latex/lm/t1lmvtt.fd
-File: t1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Font Info:    Try loading font information for LGR+lmvtt on input line 22
 .
 LaTeX Font Info:    No file LGRlmvtt.fd. on input line 22.
@@ -1425,7 +1424,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmvtt on input line 22
 .
 (/usr/local/share/texmf-dist/tex/latex/lm/ts1lmvtt.fd
 File: ts1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3
+) [2
 
 ]
 Overfull \hbox (12.47914pt too wide) in paragraph at lines 95--96
@@ -1433,73 +1432,83 @@ Overfull \hbox (12.47914pt too wide) in paragraph at lines 95--96
  sep-a-rates you from...whatever's
  []
 
-[4] [5] [6] [7] [8] [9] [10])
+[3] [4] [5] [6] [7] [8] [9])
 File: img/tombstone.png Graphic file (type png)
  <use img/tombstone.png>
-Package pdftex.def Info: img/tombstone.png used on input line 49.
+Package pdftex.def Info: img/tombstone.png used on input line 51.
 (pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
 
 <img/karet.png, id=52, 1387.584pt x 780.516pt>
 File: img/karet.png Graphic file (type png)
  <use img/karet.png>
-Package pdftex.def Info: img/karet.png used on input line 52.
+Package pdftex.def Info: img/karet.png used on input line 54.
 (pdftex.def)             Requested size: 483.69687pt x 272.07709pt.
- [11 <./img/karet.png>] (./txt/allday.tex
+ [10 <./img/karet.png>] (./txt/allday.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 7.
  (./txt/allday.doctorsplit.tex)
-(./txt/allday.seriessplit.tex) (./txt/allday.companionsplit.tex) [12
+(./txt/allday.seriessplit.tex) (./txt/allday.companionsplit.tex) [11
 
 
 ]
 (./txt/allday.doctorfaves.tex))
 File: img/tombstone.png Graphic file (type png)
  <use img/tombstone.png>
-Package pdftex.def Info: img/tombstone.png used on input line 63.
+Package pdftex.def Info: img/tombstone.png used on input line 65.
 (pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
 
-Overfull \hbox (1.71033pt too wide) in paragraph at lines 104--64
+Overfull \hbox (1.71033pt too wide) in paragraph at lines 104--66
 []\T1/qcs/m/n/12 Furthermore, many of the top 12 are sub-jec-tively con-sid-ere
 d some of the scari-est episodes,
  []
 
-[13
+[12
 
-] (./txt/ahmed.tex [14
+] (./txt/ahmed.tex [13
 
-] [15] [16])
+] [14] [15])
 File: img/tombstone.png Graphic file (type png)
  <use img/tombstone.png>
-Package pdftex.def Info: img/tombstone.png used on input line 68.
+Package pdftex.def Info: img/tombstone.png used on input line 70.
 (pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
- [17]
-(./txt/stroud.tex [18
+ [16]
+(./txt/stroud.tex [17
 
 ])
 File: img/tombstone.png Graphic file (type png)
  <use img/tombstone.png>
-Package pdftex.def Info: img/tombstone.png used on input line 75.
+Package pdftex.def Info: img/tombstone.png used on input line 77.
 (pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
+ [18] (./txt/losh.tex [19
 
-<img/icsf-logo.png, id=88, 397.0032pt x 106.9596pt>
+])
+File: img/tombstone.png Graphic file (type png)
+
+<use img/tombstone.png>
+Package pdftex.def Info: img/tombstone.png used on input line 80.
+(pdftex.def)             Requested size: 17.93092pt x 8.81998pt.
+ [20]
+<img/icsf-logo.png, id=101, 397.0032pt x 106.9596pt>
 File: img/icsf-logo.png Graphic file (type png)
  <use img/icsf-logo.png>
-Package pdftex.def Info: img/icsf-logo.png used on input line 80.
+Package pdftex.def Info: img/icsf-logo.png used on input line 86.
 (pdftex.def)             Requested size: 241.84843pt x 65.1571pt.
 
-[19 <./img/icsf-logo.png>] (./main.aux)
+[21
+
+ <./img/icsf-logo.png>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24246 strings out of 493093
- 603423 string characters out of 6138121
+ 24251 strings out of 493093
+ 603478 string characters out of 6138121
  743774 words of memory out of 5000000
- 27252 multiletter control sequences out of 15000+600000
- 55412 words of font info for 43 fonts, out of 8000000 for 9000
+ 27253 multiletter control sequences out of 15000+600000
+ 58397 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,77p,806b,2241s stack positions out of 5000i,2500n,10000p,300000b,80000s
 {/usr/local/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{/usr/local
@@ -1508,14 +1517,15 @@ t/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/share/texmf-dist/fonts/enc/dvips/lm
 /lm-ec.enc}</usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 b></usr/local/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/shar
-e/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/local/share/texmf-dist/fon
-ts/type1/public/tex-gyre/qcsb.pfb></usr/local/share/texmf-dist/fonts/type1/publ
-ic/tex-gyre/qcsbi.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/
-qcsr.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb>
-Output written on main.pdf (19 pages, 2086513 bytes).
+e/texmf-dist/fonts/type1/public/lm/lmvtk10.pfb></usr/local/share/texmf-dist/fon
+ts/type1/public/lm/lmvtt10.pfb></usr/local/share/texmf-dist/fonts/type1/public/
+tex-gyre/qcsb.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsb
+i.pfb></usr/local/share/texmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb></usr/l
+ocal/share/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb>
+Output written on main.pdf (22 pages, 2028724 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
